@@ -23,7 +23,9 @@ export default function ChiefGuest() {
             <img 
               src={CGP}
               alt="Chief Guest" 
-              className="rounded-lg shadow-xl max-w-full h-auto"
+              className="rounded-lg shadow-xl max-w-full ml-[110px] h-auto"
+              width={500}
+              height={500}
             />
           </motion.div>
           <motion.div 

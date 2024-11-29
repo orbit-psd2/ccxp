@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import ChiefGuest from './components/ChiefGuest'
+import Events from './components/Events'
+import Footer from './components/Footer'
 
 const router = createBrowserRouter([
   {
@@ -13,7 +15,8 @@ const router = createBrowserRouter([
       <Navbar/>
       <Hero/>
       <About/>
-      <ChiefGuest/>
+      <Events/>
+      <Footer/>
       </>
     )
   }
