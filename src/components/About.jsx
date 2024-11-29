@@ -17,7 +17,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="py-15 overflow-hidden">
+    <section id="about" className="py-17 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <motion.h2 
           className="text-4xl md:text-5xl font-bold text-center mb-16 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text"

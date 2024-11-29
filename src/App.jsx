@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import ChiefGuest from './components/ChiefGuest'
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
       <Navbar/>
       <Hero/>
       <About/>
+      <ChiefGuest/>
       </>
     )
   }
