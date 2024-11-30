@@ -6,6 +6,10 @@ import About from './components/About'
 import ChiefGuest from './components/ChiefGuest'
 import Events from './components/Events'
 import Footer from './components/Footer'
+import Sponsor from './components/Sponsor'
+import EventOverview from './pages/CCWSoverview'
+import NavbarEvent from './components/Navbar'
+import EventNavbar from './components/EventNav'
 
 const router = createBrowserRouter([
   {
@@ -16,10 +20,21 @@ const router = createBrowserRouter([
       <Hero/>
       <About/>
       <Events/>
+      <Sponsor/>
       <Footer/>
       </>
     )
-  }
+  },
+
+  {
+    path: '/ccws',
+    element: (
+      <>
+      <EventNavbar/>
+      <EventOverview/>
+      </>
+    )
+  },
 ])
 
 const App = () => {

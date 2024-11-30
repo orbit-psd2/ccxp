@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+export default function EventNavbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -32,17 +33,17 @@ export default function Navbar() {
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="md:text-[22px] font-bold text-zinc-800 max-sm:text-[17px] max-md:text-[22px]">CloudCon X Pulse'25</span>
+            <span className="md:text-[22px] font-bold text-white max-sm:text-[17px] max-md:text-[22px]"><Link to='/'>CloudCon X Pulse'25</Link></span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]">Home</a>
-            <a href="#events" className="text-zinc-800 hover:text-purple-500  font-outfit uppercase transition-colors font-semibold text-[18px]">Events</a>
-            <a href="#schedule" className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]">Sponsors</a>
-            <a href="#sponsors" className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]">Contact</a>
+            <a href="#" className="text-white hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]">Home</a>
+            <a href="#events" className="text-white hover:text-purple-500  font-outfit uppercase transition-colors font-semibold text-[18px]">Events</a>
+            <a href="#schedule" className="text-white hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]">Sponsors</a>
+            <a href="#sponsors" className="text-white hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]">Contact</a>
           </div>
           
-          <button className="font-poppins shadow-lg border-2 border-zinc-900 px-5 py-2 hover:bg-orange-300 rounded-full font-semibold uppercase transition-all hover:scale-105  hover:border-orange-300 max-sm:px-3 max-sm:py-1 max-sm:text-[12px] max-md:px-6 max-md:py-2 max-md:text-[15px]  xl:px-6 xl:py-[9px]">
+          <button className="font-poppins text-white shadow-lg border-2 border-white px-5 py-2 hover:bg-orange-300 rounded-full font-semibold uppercase transition-all hover:scale-105 hover:text-black  hover:border-orange-300 max-sm:px-3 max-sm:py-1 max-sm:text-[12px] max-md:px-6 max-md:py-2 max-md:text-[15px]  xl:px-6 xl:py-[9px]">
             Register Now
           </button>
         </div>
