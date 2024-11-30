@@ -48,7 +48,7 @@ export default function Events() {
               <img 
                 src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2940&auto=format&fit=crop" 
                 alt="A DAY WITH CLOUD-WORKSHOP"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
             </div>
             <div className="p-6">
@@ -70,7 +70,7 @@ export default function Events() {
               <img 
                 src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop" 
                 alt="CLOUD INNOVATORS"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
             </div>
             <div className="p-6">
@@ -92,7 +92,7 @@ export default function Events() {
               <img 
                 src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=2940&auto=format&fit=crop" 
                 alt="GAME DEV CHALLENGE"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -114,7 +114,7 @@ export default function Events() {
               <img 
                 src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop" 
                 alt="CLOUD SECURITY HACKATHON"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
             </div>
             <div className="p-6">
@@ -151,7 +151,7 @@ export default function Events() {
               <img 
                 src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2940&auto=format&fit=crop" 
                 alt="GAMING TOURNAMENT"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
             </div>
             <div className="p-6">
@@ -173,7 +173,7 @@ export default function Events() {
               <img 
                 src="https://images.unsplash.com/photo-1496989981497-27d69cdad83e?q=80&w=2944&auto=format&fit=crop" 
                 alt="TECH TREASURE HUNT"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
             </div>
             <div className="p-6">
@@ -195,7 +195,7 @@ export default function Events() {
               <img 
                 src="https://plus.unsplash.com/premium_photo-1701127871438-af582cdd8c55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="DIGITAL ART SHOWCASE"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -217,7 +217,7 @@ export default function Events() {
               <img 
                 src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2940&auto=format&fit=crop" 
                 alt="TECH QUIZ"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
