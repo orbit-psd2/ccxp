@@ -31,12 +31,12 @@ export default function Sponsors() {
   };
 
   return (
-    <section id="sponsors" className="py-20 bg-gray-50">
+    <section id="sponsors" className="py-10 background: radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;">
       <div className="max-w-7xl mx-auto px-4">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-orange-500 via-purple-500 to-blue-500 text-transparent bg-clip-text"
+          className="text-4xl md:text-5xl font-bold text-center mb-14 uppercase bg-gradient-to-r from-orange-500 via-purple-500 to-blue-500 text-transparent bg-clip-text"
         >
           Our Sponsors
         </motion.h2>

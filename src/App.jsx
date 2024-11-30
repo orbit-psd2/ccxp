@@ -7,9 +7,14 @@ import ChiefGuest from './components/ChiefGuest'
 import Events from './components/Events'
 import Footer from './components/Footer'
 import Sponsor from './components/Sponsor'
-import EventOverview from './pages/CCWSoverview'
-import NavbarEvent from './components/Navbar'
+import EventOverview from './pages/CCWS/CCWSoverview'
 import EventNavbar from './components/EventNav'
+
+import CloudInnovatorsOverview from './pages/CI/CloudInnovators'
+import EventDescription from './pages/CCWS/EventDescription'
+import EventRules from './pages/CCWS/Eventrules'
+import CloudInnovatorsDescription from './pages/CI/CIDescription'
+import CloudInnovatorsRules from './pages/CI/CIRules'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +30,16 @@ const router = createBrowserRouter([
       </>
     )
   },
+  {
+    path: '/events',
+    element: (
+      <>
+      <Navbar/>   
+      <Events/>
+      <Footer/>
+      </>
+    )
+  },
 
   {
     path: '/ccws',
@@ -32,6 +47,22 @@ const router = createBrowserRouter([
       <>
       <EventNavbar/>
       <EventOverview/>
+      <EventDescription/>
+      <EventRules/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/ci',
+    element: (
+      <>
+      <EventNavbar/>
+      <CloudInnovatorsOverview/>
+      <CloudInnovatorsDescription/>
+      <CloudInnovatorsRules/>
+      <Footer/>
       </>
     )
   },

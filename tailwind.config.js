@@ -8,7 +8,9 @@ export default {
     extend: {
       fontFamily:{
         poppins: ["Poppins", "sans-serif"],
-        outfit: ["Outfit" , "sans-serif"]
+        outfit: ["Outfit" , "sans-serif"],
+        audiowide: ["Audiowide", "sans-serif"],
+        pridi: ["Pridi", "sans-serif"],
       }
     },
   },

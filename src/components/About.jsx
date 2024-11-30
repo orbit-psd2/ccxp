@@ -37,7 +37,7 @@ export default function About() {
           {/* CloudCon Section */}
           <motion.div variants={itemVariants} className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
-              <h3 className="text-3xl font-bold mb-4 text-zinc-800">CloudCon</h3>
+              <h3 className="text-3xl font-bold mb-4 text-zinc-800 font-pridi uppercase">CloudCon</h3>
               <p className="text-lg text-zinc-700 mb-6">
                 CloudCon is the premier cloud computing event, bringing together industry leaders, innovators, and enthusiasts. Dive into the world of cutting-edge cloud technologies, serverless architectures, and DevOps practices. Experience hands-on workshops, insightful talks, and networking opportunities that will elevate your cloud expertise.
               </p>
@@ -66,7 +66,7 @@ export default function About() {
           {/* Pulse Section */}
           <motion.div variants={itemVariants} className="flex flex-col md:flex-row-reverse items-center justify-between">
             <div className="md:w-1/2 md:pl-8 mb-8 md:mb-0">
-              <h3 className="text-3xl font-bold mb-4 text-zinc-800">Pulse</h3>
+              <h3 className="text-3xl font-bold mb-4 text-zinc-800 font-audiowide uppercase">Pulse</h3>
               <p className="text-lg text-zinc-700 mb-6">
                 Pulse is the heartbeat of gaming technology innovation. From immersive VR experiences to AI-driven game design, Pulse showcases the future of interactive entertainment. Join us for thrilling esports tournaments, game development workshops, and discussions on the latest trends shaping the gaming industry.
               </p>
@@ -86,7 +86,7 @@ export default function About() {
                 muted
                 playsInline
               >
-                <source src="/pulse.mp4" type="video/mp4" />
+                <source src="/PulseMain.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
