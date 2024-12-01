@@ -49,7 +49,7 @@ export default function TDescription2() {
                 muted
                 playsInline
               >
-                <source src="/C101VID.mp4" type="video/mp4" />
+                <source src="/C101VID2.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
