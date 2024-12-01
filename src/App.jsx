@@ -17,6 +17,24 @@ import TRules2 from './pages/C101/Rules'
 import TOverview3 from './pages/CodeComputing/Overview'
 import TDescription3 from './pages/CodeComputing/Description'
 import TRules3 from './pages/CodeComputing/Rules'
+import NTOverview1 from './pages/DD/Overview'
+import NTDescription1 from './pages/DD/Description'
+import NTRules1 from './pages/DD/Rules'
+import NTOverview2 from './pages/FO/Overview'
+import NTDescription2 from './pages/FO/Description'
+import NTRules2 from './pages/FO/Rules'
+import NTOverview3 from './pages/WOTV/Overview'
+import NTDescription3 from './pages/WOTV/Description'
+import NTRules3 from './pages/WOTV/Rules'
+import NTOverview4 from './pages/OM/Overview'
+import NTDescription4 from './pages/OM/Description'
+import NTRules4 from './pages/OM/Rules'
+import NTOverview5 from './pages/GOBVID/Overview'
+import NTDescription5 from './pages/GOBVID/Description'
+import NTRules5 from './pages/GOBVID/Rules'
+import NTOverview6 from './pages/CZ/Overview'
+import NTDescription6 from './pages/CZ/Description'
+import NTRules6 from './pages/CZ/rules'
 
 const router = createBrowserRouter([
   {
@@ -77,6 +95,84 @@ const router = createBrowserRouter([
       <TOverview3/>
       <TDescription3/>
       <TRules3/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/dd',
+    element: (
+      <>
+      <EventNavbar/>
+      <NTOverview1/>
+      <NTDescription1/>
+      <NTRules1/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/fo',
+    element: (
+      <>
+      <EventNavbar/>
+      <NTOverview2/>
+      <NTDescription2/>
+      <NTRules2/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/wotv',
+    element: (
+      <>
+      <EventNavbar/>
+      <NTOverview3/>
+      <NTDescription3/>
+      <NTRules3/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/om',
+    element: (
+      <>
+      <EventNavbar/>
+      <NTOverview4/>
+      <NTDescription4/>
+      <NTRules4/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/gob',
+    element: (
+      <>
+      <EventNavbar/>
+      <NTOverview5/>
+      <NTDescription5/>
+      <NTRules5/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/cz',
+    element: (
+      <>
+      <EventNavbar/>
+      <NTOverview6/>
+      <NTDescription6/>
+      <NTRules6/>
       <Footer/>
       </>
     )

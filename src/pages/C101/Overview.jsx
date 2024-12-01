@@ -7,7 +7,7 @@ export default function TOverview2() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2944&auto=format&fit=crop")',
+          backgroundImage: 'url("https://www.researchhq.net/wp-content/uploads/2021/03/cloud-computing_-copy.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>

@@ -145,7 +145,7 @@ export default function Events() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                VIEW
+                <Link to='/dd'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>
@@ -168,7 +168,7 @@ export default function Events() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                VIEW
+                <Link to='/fo'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>
@@ -191,7 +191,7 @@ export default function Events() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                VIEW
+                <Link to='/wotv'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>
@@ -215,7 +215,7 @@ export default function Events() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                VIEW
+                <Link to='/om'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>
@@ -238,7 +238,7 @@ export default function Events() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                VIEW
+                <Link to='/gob'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>
@@ -261,7 +261,7 @@ export default function Events() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                VIEW
+                <Link to='/cz'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>
