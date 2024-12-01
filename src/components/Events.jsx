@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import gamelogo from '../images/gamejam.png'
 
 export default function Events() {
   const containerVariants = {
@@ -302,18 +303,17 @@ export default function Events() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-3"
-        >
-          <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-3">
+
+          {/*HACKATHON 1*/}  
+          <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow       duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://www.tinkercoders.com/wp-content/uploads/2022/06/game-developme.jpeg" 
+                src={gamelogo}
                 alt="A DAY WITH CLOUD-WORKSHOP"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
             </div>
-
-            {/*HACKATHON 1*/}
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Game Mania - The Game Jam</h3>
               <p className="text-zinc-700 mb-6 text-justify">Join the ultimate Game Jam! Collaborate, innovate, and race against the clock to create unique games. Challenge your creativity and coding skills in this fast-paced, fun-filled competition!</p>
@@ -332,7 +332,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://www.ingenious.co.uk/wp-content/uploads/2023/08/What-is-Cloud-Computing-and-How-Can-it-Benefit-Our-Company-1024x512.jpeg" 
+                src="https://media.licdn.com/dms/image/v2/D5612AQEqJqAHMdW2_Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1708394467259?e=1738800000&v=beta&t=NW2bd1TtjnpLWDCOrkCRVTsUM2JXOHjzW0CqqKGTPXM" 
                 alt="CLOUD INNOVATORS"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />

@@ -38,6 +38,7 @@ import NTRules6 from './pages/CZZ/Rules'
 import NTOverview7 from './pages/Nostalgia/Overview'
 import NTDescription7 from './pages/Nostalgia/Description'
 import NTRules7 from './pages/Nostalgia/Rules'
+import ContactPage from './components/Contact'
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,18 @@ const router = createBrowserRouter([
       </>
     )
   },
+
+  {
+    path: '/contact',
+    element: (
+      <>
+      <Navbar/>
+      <ContactPage/>
+      <Footer/>
+      </>
+    )
+  },
+
   {
     path: '/events',
     element: (

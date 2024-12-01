@@ -19,19 +19,19 @@ export default function Hero() {
       
       {/* Decorative shapes */}
       <Shape 
-        className="w-[100px] h-[100px] bg-orange-300 rounded-full top-20 left-20 opacity-50 cursor-pointer"
+        className="w-[100px] h-[100px] bg-orange-300 rounded-full top-20 left-20 opacity-50 cursor-pointer max-sm:hidden"
         whileHover={{ scale: 1.2, rotate: 90 }}
       />
       <Shape 
-        className="w-[100px] h-[100px] bg-purple-300 rounded-md top-40 right-20 opacity-50 cursor-pointer"
+        className="w-[100px] h-[100px] bg-purple-300 rounded-md top-40 right-20 opacity-50 cursor-pointer max-sm:hidden"
         whileHover={{ scale: 1.2, rotate: -45 }}
       />
       <Shape 
-        className="w-[110px] h-[110px] bg-blue-300 rounded-lg bottom-20 left-40 opacity-50 cursor-pointer"
+        className="w-[110px] h-[110px] bg-blue-300 rounded-lg bottom-20 left-40 opacity-50 cursor-pointer max-sm:hidden"
         whileHover={{ scale: 1.2, skew: 10 }}
       />
       <Shape 
-        className="w-[120px] h-[120px] bg-yellow-300 rounded-full bottom-40 right-40 opacity-50 cursor-pointer"
+        className="w-[120px] h-[120px] bg-yellow-300 rounded-full bottom-40 right-40 opacity-50 cursor-pointer max-sm:hidden"
         whileHover={{ scale: 1.2, y: -20 }}
       />
 
@@ -57,11 +57,11 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          <span className='font-audiowide tracking-wider'>CLOUDCON</span> X <span className='font-audiowide tracking-wider'>PULSE'25</span>
+          <span className='font-audiowide tracking-wider max-sm:text-[45px]'>CLOUDCON</span> <span className='max-sm:text-[48px]'>X</span> <span className='font-audiowide tracking-wider max-sm:text-[45px]'>PULSE'25</span>
         </motion.h1>
         
         <motion.p 
-          className="text-xl md:text-3xl font-semibold font-poppins bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-violet-400  to-blue-950 bg-clip-text text-transparent mb-5"
+          className="text-xl md:text-3xl font-semibold font-poppins bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-violet-400  to-blue-950 bg-clip-text text-transparent mb-5 max-sm:text-[25px]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}

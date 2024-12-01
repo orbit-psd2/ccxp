@@ -1,9 +1,10 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function EventNavbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +20,13 @@ export default function EventNavbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [scrolled]);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+  const menuVariants = {
+    closed: { opacity: 0, x: "100%" },
+    open: { opacity: 1, x: 0 }
+  };
 
   return (
     <motion.nav
@@ -42,11 +50,66 @@ export default function EventNavbar() {
             <a href="#sponsors" className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]">Contact</a>
           </div>
           
-          <button className="font-poppins text-zinc-800 shadow-lg border-2 border-zinc-900 px-5 py-2 hover:bg-orange-300 rounded-full font-semibold uppercase transition-all hover:scale-105 hover:text-black  hover:border-orange-300 max-sm:px-3 max-sm:py-1 max-sm:text-[12px] max-md:px-6 max-md:py-2 max-md:text-[15px]  xl:px-6 xl:py-[9px]">
-            Register Now
-          </button>
+          <div className="md:hidden">
+            <button onClick={toggleMenu} className="text-zinc-800 focus:outline-none">
+              <motion.div
+                animate={isOpen ? "open" : "closed"}
+                className="w-6 h-6 flex flex-col justify-around"
+              >
+                <motion.span
+                  variants={{
+                    closed: { rotate: 0, y: 0 },
+                    open: { rotate: 45, y: 8 }
+                  }}
+                  className="w-full h-0.5 bg-zinc-800 block"
+                ></motion.span>
+                <motion.span
+                  variants={{
+                    closed: { opacity: 1 },
+                    open: { opacity: 0 }
+                  }}
+                  className="w-full h-0.5 bg-zinc-800 block"
+                ></motion.span>
+                <motion.span
+                  variants={{
+                    closed: { rotate: 0, y: 0 },
+                    open: { rotate: -45, y: -8 }
+                  }}
+                  className="w-full h-0.5 bg-zinc-800 block"
+                ></motion.span>
+              </motion.div>
+            </button>
+          </div>
+          
         </div>
       </div>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial="closed"
+            animate="open"
+            exit="closed"
+            variants={menuVariants}
+            transition={{ duration: 0.3 }}
+            className="fixed top-0 right-0 bottom-0 w-64 bg-white shadow-lg z-50 md:hidden"
+          >
+            <button 
+              onClick={toggleMenu} 
+              className="absolute top-4 right-4 text-zinc-800 focus:outline-none"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <div className="flex flex-col items-center justify-center h-full space-y-8">
+              <Link to='/' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Home</Link>
+              <Link to='/events' className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Events</Link>
+              <Link to='/contact' className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Contact</Link>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.nav>
   );
 }

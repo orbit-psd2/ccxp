@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:space-x-8 sm:space-x-4">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-purple-500 text-transparent bg-clip-text">CloudCon x Pulse</h3>
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-purple-500 text-transparent bg-clip-text uppercase font-audiowide">CloudCon x Pulse</h3>
             <p className="text-gray-400">Empowering the future of cloud and gaming technology.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -25,10 +25,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">Events</a></li>
-              <li><a href="#events" className="text-gray-400 hover:text-white transition-colors">Sponsors</a></li>
-              <li><a href="#schedule" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link to='/'>Home</Link></a></li>
+              <li><a href="#about" className="text-gray-400 hover:text-white transition-colors"><Link to='/events'>Events</Link></a></li>
+              <li><a href="#schedule" className="text-gray-400 hover:text-white transition-colors"><Link to='/contact'>Contact</Link></a></li>
             </ul>
           </div>
           <div>
