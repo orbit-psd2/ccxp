@@ -1,14 +1,40 @@
 import { motion } from 'framer-motion';
-import { Gamepad2 } from 'lucide-react';
 import CCXP from '../images/CCXPMAIN.png'
+import { Link } from 'react-router-dom';
+
+const Shape = ({ className, whileHover }) => (
+  <motion.div
+    className={`absolute ${className}`}
+    whileHover={whileHover}
+    transition={{ duration: 0.3 }}
+  />
+);
 
 export default function Hero() {
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 
-      background: radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;
-    " />
+      <div className="absolute inset-0" style={{
+        background: "radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;"
+      }} />
       
+      {/* Decorative shapes */}
+      <Shape 
+        className="w-[100px] h-[100px] bg-orange-300 rounded-full top-20 left-20 opacity-50 cursor-pointer"
+        whileHover={{ scale: 1.2, rotate: 90 }}
+      />
+      <Shape 
+        className="w-[100px] h-[100px] bg-purple-300 rounded-md top-40 right-20 opacity-50 cursor-pointer"
+        whileHover={{ scale: 1.2, rotate: -45 }}
+      />
+      <Shape 
+        className="w-[110px] h-[110px] bg-blue-300 rounded-lg bottom-20 left-40 opacity-50 cursor-pointer"
+        whileHover={{ scale: 1.2, skew: 10 }}
+      />
+      <Shape 
+        className="w-[120px] h-[120px] bg-yellow-300 rounded-full bottom-40 right-40 opacity-50 cursor-pointer"
+        whileHover={{ scale: 1.2, y: -20 }}
+      />
+
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -18,8 +44,9 @@ export default function Hero() {
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
+          whileHover={{scale: 1.1}}
           transition={{ delay: 0.2, type: "spring" }}
-          className="flex justify-center"
+          className="flex justify-center cursor-pointer"
         >
           <img src={CCXP} alt="Logo" width={300} height={300} />
         </motion.div>
@@ -30,9 +57,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          <span className='font-audiowide tracking-wider'>CLOUDCON</span> <span className='font-audiowide tracking-wider'>PULSE'25</span>
+          <span className='font-audiowide tracking-wider'>CLOUDCON</span> X <span className='font-audiowide tracking-wider'>PULSE'25</span>
         </motion.h1>
-        
         
         <motion.p 
           className="text-xl md:text-3xl font-semibold font-poppins bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-violet-400  to-blue-950 bg-clip-text text-transparent mb-5"
@@ -57,12 +83,14 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
         >
-          <a 
+          <motion.a 
             href="#events" 
             className="border-2 border-zinc-800 hover:bg-slate-900 hover:text-white shadow-lg text-black px-8 py-3 rounded-full text-lg font-semibold transition-all hover:scale-105 inline-block mb-6"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
-            Explore Events
-          </a>
+            <Link to='/events'>Explore Events</Link>
+          </motion.a>
         </motion.div>
       </motion.div>
 

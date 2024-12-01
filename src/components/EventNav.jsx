@@ -39,7 +39,6 @@ export default function EventNavbar() {
           <div className="hidden md:flex items-center space-x-8">
             <a href="#" className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
             <a href="#events" className="text-zinc-800 hover:text-purple-500  font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
-            <a href="#schedule" className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]">Sponsors</a>
             <a href="#sponsors" className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]">Contact</a>
           </div>
           
