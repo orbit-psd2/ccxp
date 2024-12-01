@@ -30,7 +30,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          CLOUDCON X PULSE'25
+          <span className='font-audiowide tracking-wider'>CLOUDCON</span> <span className='font-audiowide tracking-wider'>PULSE'25</span>
         </motion.h1>
         
         
