@@ -39,6 +39,13 @@ import NTOverview7 from './pages/Nostalgia/Overview'
 import NTDescription7 from './pages/Nostalgia/Description'
 import NTRules7 from './pages/Nostalgia/Rules'
 import ContactPage from './components/Contact'
+import ManiaOverview from './pages/GameMania/ManiaOverview'
+import ManiaDesc from './pages/GameMania/ManiaDescription'
+import ManiaRules from './pages/GameMania/ManiaRules'
+import CloudDesc from './pages/Cloudathon/Description'
+import CloudOverview from './pages/Cloudathon/Overview'
+import CloudRules from './pages/Cloudathon/Rules'
+
 
 const router = createBrowserRouter([
   {
@@ -202,6 +209,32 @@ const router = createBrowserRouter([
       <NTOverview7/>
       <NTDescription7/>
       <NTRules7/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/hackathon1',
+    element: (
+      <>
+      <EventNavbar/>
+      <ManiaOverview/>
+      <ManiaDesc/>
+      <ManiaRules/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/hackathon2',
+    element: (
+      <>
+      <EventNavbar/>
+      <CloudOverview/>
+      <CloudDesc/>
+      <CloudRules/>
       <Footer/>
       </>
     )

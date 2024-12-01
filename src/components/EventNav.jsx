@@ -45,9 +45,9 @@ export default function EventNavbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
+            <a href="#" className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
             <a href="#events" className="text-zinc-800 hover:text-purple-500  font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
-            <a href="#sponsors" className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]">Contact</a>
+            <a href="#sponsors" className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]">Contact</a>
           </div>
           
           <div className="md:hidden">
@@ -103,9 +103,9 @@ export default function EventNavbar() {
               </svg>
             </button>
             <div className="flex flex-col items-center justify-center h-full space-y-8">
-              <Link to='/' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Home</Link>
+              <Link to='/' className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Home</Link>
               <Link to='/events' className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Events</Link>
-              <Link to='/contact' className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Contact</Link>
+              <Link to='/contact' className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Contact</Link>
             </div>
           </motion.div>
         )}
