@@ -8,12 +8,15 @@ import Events from './components/Events'
 import Footer from './components/Footer'
 import Sponsor from './components/Sponsor'
 import EventNavbar from './components/EventNav'
-import CloudInnovatorsOverview from './pages/CI/CloudInnovators'
-import CloudInnovatorsDescription from './pages/CI/CIDescription'
-import CloudInnovatorsRules from './pages/CI/CIRules'
 import TRules1 from './pages/GDWS/Rules'
 import TOverview1 from './pages/GDWS/Overview'
 import TDescription1 from './pages/GDWS/Description'
+import TOverview2 from './pages/C101/Overview'
+import TDescription2 from './pages/C101/Description'
+import TRules2 from './pages/C101/Rules'
+import TOverview3 from './pages/CodeComputing/Overview'
+import TDescription3 from './pages/CodeComputing/Description'
+import TRules3 from './pages/CodeComputing/Rules'
 
 const router = createBrowserRouter([
   {
@@ -54,13 +57,26 @@ const router = createBrowserRouter([
   },
 
   {
-    path: '/ci',
+    path: '/c101',
     element: (
       <>
       <EventNavbar/>
-      <CloudInnovatorsOverview/>
-      <CloudInnovatorsDescription/>
-      <CloudInnovatorsRules/>
+      <TOverview2/>
+      <TDescription2/>
+      <TRules2/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/cccp',
+    element: (
+      <>
+      <EventNavbar/>
+      <TOverview3/>
+      <TDescription3/>
+      <TRules3/>
       <Footer/>
       </>
     )

@@ -15,67 +15,67 @@ export default function TOverview1() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-10 py-[120px] text-slate-50">
+      <div className="relative z-10 container mx-auto px-10 py-[129px] text-slate-50">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl md:text-6xl font-bold mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold mb-[60px] uppercase">
           Workshop on Game Development
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <Calendar className="w-6 h-6 text-orange-400" />
-                <span className="text-xl">23-03-2024</span>
+                <Calendar className="w-7 h-7 text-orange-400" />
+                <span className="text-2xl font-pridi">23-03-2024</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin className="w-6 h-6 text-orange-400" />
-                <span className="text-xl">GALLERY HALL 3</span>
+                <MapPin className="w-7 h-7 text-orange-400" />
+                <span className="text-2xl font-pridi">GALLERY HALL 3</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Clock className="w-6 h-6 text-orange-400" />
-                <span className="text-xl">10:00 AM</span>
+                <Clock className="w-7 h-7 text-orange-400" />
+                <span className="text-2xl font-pridi">10:00 AM</span>
               </div>
               <div className="flex items-center space-x-3">
-                <span className="text-xl font-semibold">Registration Fee: ₹ 50/-</span>
+                <span className="text-2xl font-medium font-pridi mt-5">Registration Fee: ₹ 50/-</span>
               </div>
             </div>
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold mb-3 flex items-center">
-                  <User className="w-5 h-5 mr-2 text-orange-400" />
+                <h3 className="text-2xl font-medium font-pridi mb-3 flex items-center">
+                  <User className="w-6 h-6 mr-2 text-orange-400" />
                   Student Co-ordinators
                 </h3>
                 <ul className="space-y-2">
-                  <li className="flex items-center">
-                    <Phone className="w-4 h-4 mr-2 text-orange-400" />
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-orange-400" />
                     Nithin S.P - 9940022364
                   </li>
-                  <li className="flex items-center">
-                    <Phone className="w-4 h-4 mr-2 text-orange-400" />
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-orange-400" />
                     Vivek Sai - 9398584426
                   </li>
-                  <li className="flex items-center">
-                    <Phone className="w-4 h-4 mr-2 text-orange-400" />
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-orange-400" />
                     Revanth Gourishetti - 8125430047
                   </li>
-                  <li className="flex items-center">
-                    <Phone className="w-4 h-4 mr-2 text-orange-400" />
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-orange-400" />
                     Abhi Ram - 7780208667
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-3 flex items-center">
-                  <User className="w-5 h-5 mr-2 text-orange-400" />
+                <h3 className="text-xl font-medium mb-3 flex items-center font-pridi">
+                  <User className="w-6 h-6 mr-2 text-orange-400" />
                   Faculty Co-ordinators
                 </h3>
-                <ul className="space-y-2">
+                <ul className="space-y-2 text-xl font-pridi">
                   <li>Dr.V.Gowri, Asst.Prof/CSE</li>
                   <li>Mr.A.Madhu, Asst.Prof/CSE</li>
                 </ul>
@@ -86,7 +86,7 @@ export default function TOverview1() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-orange-500 to-purple-600 text-white px-8 py-3 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow"
+            className="bg-gradient-to-r from-orange-500 to-purple-600 text-white px-8 py-3 tracking-widest rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow"
           >
             REGISTER
           </motion.button>

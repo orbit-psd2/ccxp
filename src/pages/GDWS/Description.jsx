@@ -19,7 +19,7 @@ export default function TDescription1() {
               <p className="mb-4 text-[18px]">
                 Throughout the workshop, you'll explore:
               </p>
-              <ul className="list-disc pl-6 mb-4 space-y-2 text-[18px] font-medium">
+              <ul className="list-disc pl-6 mb-4 space-y-3 text-[18px] font-medium">
                 <li>Fundamental principles of game design and development</li>
                 <li>Introduction to popular game engines like Unity and Unreal Engine</li>
                 <li>Basics of coding for game mechanics and interactivity</li>

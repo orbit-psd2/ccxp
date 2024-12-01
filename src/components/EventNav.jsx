@@ -33,7 +33,7 @@ export default function EventNavbar() {
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="md:text-[22px] font-bold text-zinc-800 max-sm:text-[17px] max-md:text-[22px]"><Link to='/'>CloudCon X Pulse'25</Link></span>
+            <span className="md:text-[22px] uppercase font-bold text-zinc-800 max-sm:text-[17px] max-md:text-[22px]"><Link to='/'>CloudCon X Pulse'25</Link></span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
