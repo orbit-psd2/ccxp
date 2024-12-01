@@ -32,9 +32,9 @@ import NTRules4 from './pages/OM/Rules'
 import NTOverview5 from './pages/GOBVID/Overview'
 import NTDescription5 from './pages/GOBVID/Description'
 import NTRules5 from './pages/GOBVID/Rules'
-import NTOverview6 from './pages/CZ/Overview'
-import NTDescription6 from './pages/CZ/Description'
-import NTRules6 from './pages/CZ/rules'
+import NTOverview6 from './pages/CZZ/Overview'
+import NTDescription6 from './pages/CZZ/Description'
+import NTRules6 from './pages/CZZ/Rules'
 
 const router = createBrowserRouter([
   {
