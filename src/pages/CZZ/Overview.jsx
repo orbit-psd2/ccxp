@@ -7,7 +7,7 @@ export default function NTOverview6() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://www.hindustantimes.com/ht-img/img/2024/11/26/550x309/Screenshot_2023-12-19_120415_1702967672414_1732652063042.png")',
+          backgroundImage: 'url("https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>

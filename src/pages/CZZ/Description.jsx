@@ -48,7 +48,7 @@ export default function NTDescription6() {
                 muted
                 playsInline
               >
-                <source src="/GOBVID.mp4" type="video/mp4" />
+                <source src="/CZZVID.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
