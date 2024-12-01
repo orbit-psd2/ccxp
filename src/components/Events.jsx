@@ -284,7 +284,7 @@ export default function Events() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                VIEW
+                <Link to='/nostalgia'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>

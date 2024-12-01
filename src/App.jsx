@@ -35,6 +35,9 @@ import NTRules5 from './pages/GOBVID/Rules'
 import NTOverview6 from './pages/CZZ/Overview'
 import NTDescription6 from './pages/CZZ/Description'
 import NTRules6 from './pages/CZZ/Rules'
+import NTOverview7 from './pages/Nostalgia/Overview'
+import NTDescription7 from './pages/Nostalgia/Description'
+import NTRules7 from './pages/Nostalgia/Rules'
 
 const router = createBrowserRouter([
   {
@@ -173,6 +176,19 @@ const router = createBrowserRouter([
       <NTOverview6/>
       <NTDescription6/>
       <NTRules6/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/nostalgia',
+    element: (
+      <>
+      <EventNavbar/>
+      <NTOverview7/>
+      <NTDescription7/>
+      <NTRules7/>
       <Footer/>
       </>
     )
