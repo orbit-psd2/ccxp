@@ -31,7 +31,7 @@ export default function Sponsors() {
   };
 
   return (
-    <section id="sponsors" className="py-10 background: radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;">
+    <section id="sponsors" className="pb-10 background: radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;">
       <div className="max-w-7xl mx-auto px-4">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
@@ -53,7 +53,7 @@ export default function Sponsors() {
               whileHover={{ scale: 1.05 }}
               className="flex flex-col items-center"
             >
-              <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 w-full aspect-square flex items-center justify-center">
+              <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 w-full aspect-square flex items-center cursor-pointer justify-center">
                 <img src={sponsor.logo} alt={`${sponsor.name} logo`} className="max-w-full max-h-full object-contain" />
               </div>
               <h3 className="mt-4 text-lg font-semibold text-gray-800">{sponsor.name}</h3>

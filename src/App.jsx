@@ -7,14 +7,13 @@ import ChiefGuest from './components/ChiefGuest'
 import Events from './components/Events'
 import Footer from './components/Footer'
 import Sponsor from './components/Sponsor'
-import EventOverview from './pages/CCWS/CCWSoverview'
 import EventNavbar from './components/EventNav'
-
 import CloudInnovatorsOverview from './pages/CI/CloudInnovators'
-import EventDescription from './pages/CCWS/EventDescription'
-import EventRules from './pages/CCWS/Eventrules'
 import CloudInnovatorsDescription from './pages/CI/CIDescription'
 import CloudInnovatorsRules from './pages/CI/CIRules'
+import TRules1 from './pages/GDWS/Rules'
+import TOverview1 from './pages/GDWS/Overview'
+import TDescription1 from './pages/GDWS/Description'
 
 const router = createBrowserRouter([
   {
@@ -42,13 +41,13 @@ const router = createBrowserRouter([
   },
 
   {
-    path: '/ccws',
+    path: '/gdws',
     element: (
       <>
       <EventNavbar/>
-      <EventOverview/>
-      <EventDescription/>
-      <EventRules/>
+      <TOverview1/>
+      <TDescription1/>
+      <TRules1/>
       <Footer/>
       </>
     )

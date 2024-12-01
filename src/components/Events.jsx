@@ -54,13 +54,13 @@ export default function Events() {
             {/*TECHNICAL EVENT 1*/}
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Workshop on Game Development</h3>
-              <p className="text-zinc-600 mb-6">Embark on an exciting journey into Game Development with our workshop: Introduction to Game Development, Setting Up the Development Environment, Creating Your First Game, Exploring Game Mechanics, and an interactive Q&A Session.</p>
+              <p className="text-zinc-700 mb-6 text-justify">Embark on an exciting journey into Game Development with our workshop: Introduction to Game Development, Setting Up the Development Environment, Creating Your First Game, Exploring Game Mechanics, and an interactive Q&A Session.</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
               >
-                <Link to='/ccws'>VIEW</Link>
+                <Link to='/gdws'>VIEW</Link>
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </motion.button>
             </div>
@@ -77,7 +77,7 @@ export default function Events() {
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Cloud 101 (Workshop on Cloud Computing)</h3>
-              <p className="text-zinc-600 mb-6">Cloud 101 - Explore the fundamentals of cloud computing, set up your environment, deploy web applications, and gain hands-on experience in this comprehensive workshop!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Cloud 101 - Explore the fundamentals of cloud computing, set up your environment, deploy web applications, and gain hands-on experience in this comprehensive workshop!</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -100,7 +100,7 @@ export default function Events() {
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Code-Computing: The Competitive Programming Challenge</h3>
-              <p className="text-zinc-600 mb-6">Dive into the world of competitive programming, explore advanced algorithms, solve real-time challenges, and enhance your problem-solving expertise!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Dive into the world of competitive programming, explore advanced algorithms, solve real-time challenges, and enhance your problem-solving expertise!</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -139,7 +139,7 @@ export default function Events() {
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Design Dash: The Ultimate Creative Design Challenge</h3>
-              <p className="text-zinc-600 mb-6">Design Dash - Unleash your creativity in this ultimate design challenge. Collaborate, innovate, and bring your ideas to life with exciting design tasks!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Unleash your creativity in this ultimate design challenge. Collaborate, innovate, and bring your ideas to life with exciting design tasks!</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -162,7 +162,7 @@ export default function Events() {
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Face Off: The Competitive Gaming Showdown</h3>
-              <p className="text-zinc-600 mb-6">Face Off - Gear up for an electrifying gaming showdown! Compete head-to-head, showcase your skills, and emerge as the ultimate gaming champion!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Gear up for an electrifying gaming showdown! Compete head-to-head, showcase your skills, and emerge as the ultimate gaming champion!</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -185,7 +185,7 @@ export default function Events() {
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">What's on TV: The Ultimate Team Communication Challenge</h3>
-              <p className="text-zinc-600 mb-6">What's on TV - Test your team's communication and creativity in this ultimate challenge. Decode, convey, and collaborate to claim victory!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Test your team's communication and creativity in this ultimate challenge. Decode, convey, and collaborate to claim victory!</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -209,7 +209,7 @@ export default function Events() {
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Open Mic - Express your own unique skills and talents
               </h3>
-              <p className="text-zinc-600 mb-6">Open Mic - Step into the spotlight and showcase your unique skills and talents. Let your creativity and passion shine!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Step into the spotlight and showcase your unique skills and talents. Let your creativity and passion shine!</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -225,14 +225,14 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2940&auto=format&fit=crop" 
+                src="https://images.pexels.com/photos/776654/pexels-photo-776654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
                 alt="TECH QUIZ"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">GameOn Bidz - IPL Auction</h3>
-              <p className="text-zinc-600 mb-6">GameOn Bidz – Experience the thrill of the IPL auction! Bid, strategize, and build your dream team in this exciting fantasy challenge.</p>
+              <p className="text-zinc-700 mb-6 text-justify">Experience the thrill of the IPL auction! Bid, strategize, and build your dream team in this exciting fantasy challenge.</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -248,14 +248,14 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2940&auto=format&fit=crop" 
+                src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
                 alt="TECH QUIZ"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Connectionz - Find the Key Answers by brainstorming</h3>
-              <p className="text-zinc-600 mb-6">Connectionz - Engage in a brainstorming session to unlock key answers. Collaborate, think critically, and connect the dots to solve the challenge!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Engage in a brainstorming session to unlock key answers. Collaborate, think critically, and connect the dots to solve the challenge!</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -271,14 +271,14 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2940&auto=format&fit=crop" 
+                src="https://images.pexels.com/photos/247929/pexels-photo-247929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
                 alt="TECH QUIZ"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Nostalgia - To Bring your Childhood Back </h3>
-              <p className="text-zinc-600 mb-6">Nostalgia - Relive the magic of your childhood! Join us for a fun-filled experience that brings back cherished memories and classic moments.</p>
+              <p className="text-zinc-700 mb-6 text-justify">Relive the magic of your childhood! Join us for a fun-filled experience that brings back cherished memories and classic moments.</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -289,8 +289,72 @@ export default function Events() {
               </motion.button>
             </div>
           </motion.div>
-
         </motion.div>
+
+        <motion.h2 
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-4xl md:text-5xl font-bold text-center mt-16 mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+        >
+          Hacktahons
+        </motion.h2>
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-3"
+        >
+          <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="h-64 overflow-hidden">
+              <img 
+                src="https://www.tinkercoders.com/wp-content/uploads/2022/06/game-developme.jpeg" 
+                alt="A DAY WITH CLOUD-WORKSHOP"
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
+              />
+            </div>
+
+            {/*HACKATHON 1*/}
+            <div className="p-6">
+              <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Game Mania - The Game Jam</h3>
+              <p className="text-zinc-700 mb-6 text-justify">Join the ultimate Game Jam! Collaborate, innovate, and race against the clock to create unique games. Challenge your creativity and coding skills in this fast-paced, fun-filled competition!</p>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+              >
+                <Link to='/gdws'>VIEW</Link>
+                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+              </motion.button>
+            </div>
+          </motion.div>
+
+          {/*HACKATHON 2*/}
+          <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="h-64 overflow-hidden">
+              <img 
+                src="https://www.ingenious.co.uk/wp-content/uploads/2023/08/What-is-Cloud-Computing-and-How-Can-it-Benefit-Our-Company-1024x512.jpeg" 
+                alt="CLOUD INNOVATORS"
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Cloudathon: The Ultimate Cloud Computing Hackathon</h3>
+              <p className="text-zinc-700 mb-6 text-justify">Dive into the world of cloud computing in this ultimate hackathon! Collaborate, innovate, and build cutting-edge cloud-based solutions in a competitive, high-energy environment.</p>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+              >
+                <Link to='/ci'>VIEW</Link>
+                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+              </motion.button>
+            </div>
+          </motion.div>
+
+        {/*END OF EVENTS ggs */}
+        </motion.div>
+
+        
       </div>
     </section>
   );
