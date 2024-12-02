@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import SP from '../images/Sponsor.jpg'
+import { Link } from 'react-router-dom';
 
 const sponsors = [
   { name: 'Chan Originals', tier: 'Platinum', logo: [SP] },
@@ -79,9 +80,9 @@ export default function Sponsors() {
             href="#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-block bg-gradient-to-r from-orange-500 to-purple-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
+            className="inline-block uppercase bg-gradient-to-r from-orange-500 to-purple-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
-            Become a Sponsor
+            <Link to='/contact'>Become a Sponsor</Link>
           </motion.a>
         </motion.div>
       </div>

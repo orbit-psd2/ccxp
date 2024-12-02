@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:space-x-8 sm:space-x-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:space-x-10 sm:space-x-4">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-purple-500 text-transparent bg-clip-text uppercase font-audiowide">CloudCon x Pulse</h3>
             <p className="text-gray-400">Empowering the future of cloud and gaming technology.</p>
@@ -24,19 +24,20 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link to='/'>Home</Link></a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-white transition-colors"><Link to='/events'>Events</Link></a></li>
-              <li><a href="#schedule" className="text-gray-400 hover:text-white transition-colors"><Link to='/contact'>Contact</Link></a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link to='/events'>Events</Link></a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link to='/contact'>Contact</Link></a></li>
             </ul>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Tech Street</li>
-              <li>Innovate City, IN 54321</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>Email: info@cloudconxpulse.com</li>
+              <li>SRM Institute Of Science And Technology</li>
+              <li>Bharathi Salai, Ramapuram</li>
+              <li>Chennai, Tamil Nadu 600089</li>
+              <li>Phone: +91 70922 01730</li>
+              <li>Email: support@cloudconxpulse.in</li>
             </ul>
           </div>
           
