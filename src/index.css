@@ -4,3 +4,49 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@keyframes fireGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .fire-text {
+    background: linear-gradient(270deg, #ff0000, #ff8c00, #ffa500, #ff4500);
+    background-size: 300% 300%;
+    animation: fireGradient 3s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 4px 4px 5px rgba(255, 69, 0, 0.5);
+  }
+
+  @keyframes fireGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .nav-text {
+    background: linear-gradient(270deg, #ff0000, #ff8c00, #ffa500, #ff4500);
+    background-size: 300% 300%;
+    animation: fireGradient 3s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 2px 4px rgba(255, 69, 0, 0.5);
+  }
+
+  

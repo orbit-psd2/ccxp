@@ -26,7 +26,7 @@ export default function TOverview1() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-[60px] uppercase">
+          <h1 className="text-4xl md:text-5xl font-bold mb-[80px] uppercase">
           Workshop on Game Development
           </h1>
 

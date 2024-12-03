@@ -56,7 +56,7 @@ export default function Hero() {
             SRM INSTITUTE OF SCIENCE AND TECHNOLOGY
           </motion.h2>
           <motion.h3 
-            className="text-xl md:text-[30px] mt-7 font-semibold text-gray-700 mb-2"
+            className="text-2xl md:text-[30px] mt-4 font-poppins font-semibold text-gray-700 mb-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -77,7 +77,7 @@ export default function Hero() {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           whileHover={{scale: 1.1}}
-          transition={{ delay: 0.4, type: "spring" }}
+          transition={{ delay: 0, type: "spring" }}
           className="flex justify-center cursor-pointer"
         >
           <img src={CCXP} alt="CloudCon x Pulse Logo" width={400} height={400} />
@@ -89,7 +89,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
         >
-          <span className='font-audiowide tracking-wider max-sm:text-[45px]'>CLOUDCON</span> <span className='max-sm:text-[48px]'>X</span> <span className='font-audiowide tracking-wider max-sm:text-[45px]'>PULSE'25</span>
+          <span className='font-audiowide fire-text hover:opacity-90 transition-opacity duration-500 tracking-wider max-sm:text-[45px]'>CLOUDCON X PULSE'25</span>
         </motion.h1>
         
         <motion.p 
@@ -115,14 +115,16 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
         >
+          <Link to='/events'>
           <motion.a 
             href="#events" 
-            className="border-2 border-zinc-800 hover:bg-slate-900 hover:text-white shadow-lg text-black px-8 py-3 rounded-full text-lg font-semibold transition-all hover:scale-105 inline-block mb-[100px]"
-            whileHover={{ scale: 1.05 }}
+            className="border-2 border-zinc-800 hover:bg-slate-900 hover:text-white shadow-lg text-black px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 inline-block mb-[100px]"
+            whileHover={{ scale: 1.0 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link to='/events'>Explore Events</Link>
+            Explore Events
           </motion.a>
+          </Link>
         </motion.div>
       </motion.div>
     </div>

@@ -46,6 +46,13 @@ import CloudDesc from './pages/Cloudathon/Description'
 import CloudOverview from './pages/Cloudathon/Overview'
 import CloudRules from './pages/Cloudathon/Rules'
 import PaymentPage from './components/PaymentPage'
+import RecommendedEventsGameMania from './pages/GameMania/RecommendedEventsProps'
+import RecommendedEventsC101 from './pages/C101/RecomendedEventsC101'
+import RecommendedEventsCloudathon from './pages/Cloudathon/RecEventsCloudathon'
+import RecommendedEventsCC from './pages/CodeComputing/RecEventsCC'
+import RecommendedEventsCZ from './pages/CZZ/RecEventsCZ'
+import RecommendedEventsDD from './pages/DD/RecEventsDD'
+
 
 
 const router = createBrowserRouter([
@@ -106,6 +113,7 @@ const router = createBrowserRouter([
       <TOverview2/>
       <TDescription2/>
       <TRules2/>
+      <RecommendedEventsC101/>
       <Footer/>
       </>
     )
@@ -119,6 +127,7 @@ const router = createBrowserRouter([
       <TOverview3/>
       <TDescription3/>
       <TRules3/>
+      <RecommendedEventsCC/>
       <Footer/>
       </>
     )
@@ -132,6 +141,7 @@ const router = createBrowserRouter([
       <NTOverview1/>
       <NTDescription1/>
       <NTRules1/>
+      <RecommendedEventsDD/>
       <Footer/>
       </>
     )
@@ -197,6 +207,7 @@ const router = createBrowserRouter([
       <NTOverview6/>
       <NTDescription6/>
       <NTRules6/>
+      <RecommendedEventsCZ/>
       <Footer/>
       </>
     )
@@ -223,6 +234,7 @@ const router = createBrowserRouter([
       <ManiaOverview/>
       <ManiaDesc/>
       <ManiaRules/>
+      <RecommendedEventsGameMania/>
       <Footer/>
       </>
     )
@@ -236,6 +248,7 @@ const router = createBrowserRouter([
       <CloudOverview/>
       <CloudDesc/>
       <CloudRules/>
+      <RecommendedEventsCloudathon/>
       <Footer/>
       </>
     )
