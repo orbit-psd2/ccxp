@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import GameMania from '../images/GameManiaMain.jpg'
 import GameOnBidz from '../images/GameOnBidz.jpg'
-import OpenMic from '../images/OpenMic.jpg'
+import OpenMic from '../images/OpenMIc.jpg'
 import Nostalgia from '../images/Nostalgia.jpg'
 import Connectionz from '../images/Connectionz.jpg'
 import GameDevWorkshop from '../images/GameDevWorkshop.jpg'
