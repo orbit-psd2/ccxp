@@ -21,7 +21,7 @@ export default function NTDescription6() {
               <p className="mb-4 text-[18px]">
               Event highlights include:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>Team-based gameplay with groups of three participants</li>
                 <li>Clue-based challenges involving pictures that hide a deeper connection</li>
                 <li>Brainstorming sessions to decipher the key answers tying the clues together</li>

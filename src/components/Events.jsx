@@ -1,7 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import gamelogo from '../images/gamejam.png'
+import GameMania from '../images/GameManiaMain.jpg'
+import GameOnBidz from '../images/GameOnBidz.jpg'
+import OpenMic from '../images/OpenMic.jpg'
+import Nostalgia from '../images/Nostalgia.jpg'
+import Connectionz from '../images/Connectionz.jpg'
+import GameDevWorkshop from '../images/GameDevWorkshop.jpg'
+
 
 export default function Events() {
   const containerVariants = {
@@ -47,7 +53,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://www.tinkercoders.com/wp-content/uploads/2022/06/game-developme.jpeg" 
+                src={GameDevWorkshop} 
                 alt="A DAY WITH CLOUD-WORKSHOP"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
@@ -214,7 +220,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {OpenMic} 
                 alt="TECH QUIZ"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
@@ -240,7 +246,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/776654/pexels-photo-776654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {GameOnBidz} 
                 alt="TECH QUIZ"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
@@ -265,7 +271,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {Connectionz}
                 alt="TECH QUIZ"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
@@ -290,7 +296,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/247929/pexels-photo-247929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {Nostalgia} 
                 alt="TECH QUIZ"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
@@ -329,7 +335,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow       duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src={gamelogo}
+                src={GameMania}
                 alt="A DAY WITH CLOUD-WORKSHOP"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />

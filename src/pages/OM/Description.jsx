@@ -21,14 +21,14 @@ export default function NTDescription4() {
               <p className="mb-4 text-[18px]">
               Event highlights include:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>A platform for all talents - from singing and poetry to storytelling and comedy</li>
                 <li>A welcoming and inclusive atmosphere for artists of all skill levels</li>
                 <li>An enthusiastic audience ready to cheer on your performance</li>
                 <li>Freedom to express yourself in any form of artistic creativity</li>
                 <li>A chance to connect with fellow performers and showcase your passion</li>
               </ul>
-              <p className='text-[18px]'>
+              <p className='text-[18px] text-justify'>
               Join us for a night of inspiration, expression, and unforgettable performances at Open Mic!
               </p>
             </div>

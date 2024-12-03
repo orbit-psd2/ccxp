@@ -21,14 +21,14 @@ export default function NTDescription5() {
               <p className="mb-4 text-[18px]">
               Event highlights include:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>Team-based gameplay with groups of three participants</li>
                 <li>Realistic auction simulation to bid on players and form your team</li>
                 <li>Budget management to make smart, strategic decisions</li>
                 <li>A test of cricket knowledge and analytical skills to outsmart your rivals</li>
                 <li>A fun and competitive atmosphere that brings cricket and strategy together</li>
               </ul>
-              <p className='text-[18px]'>
+              <p className='text-[18px] text-justify'>
               Whether you're a cricket enthusiast or a strategic mastermind, GameOn Bidz is your chance to showcase your skills and assemble a championship-worthy team!
               </p>
             </div>

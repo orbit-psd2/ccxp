@@ -16,20 +16,20 @@ export default function ManiaDesc() {
             <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About Game mania</h2>
             <div className="prose prose-lg text-gray-600">
               <p className="mb-4 text-[18px] text-justify">
-              Join the 8-hour innovation sprint where cloud computing meets Web3! Cloudathon 2025 brings together the brightest minds to develop transformative solutions in a dynamic, fast-paced setting.
+              Dive into a high-energy game development challenge that combines creativity, technical skill, and a meaningful theme. Participants will develop a game from pre-provided assets, creating an engaging experience that highlights sustainability and environmental responsibility
               </p>
               <p className="mb-4 text-[18px]">
               Event highlights include:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
-                <li>Hackathon with a focus on cloud technologies and Web3 integration</li>
-                <li>Opportunities to build solutions using decentralized applications and blockchain</li>
-                <li>Mentorship from industry experts and faculty to guide your project</li>
-                <li>Pre-event selection process to identify the best teams for the in-person hackathon</li>
-                <li>Evaluation based on innovation, technical execution, and impact</li>
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
+                <li>Game development from provided assets to spark creativity and innovation</li>
+                <li>A focus on sustainability and environmental themes to inspire impactful storytelling</li>
+                <li>Opportunities to showcase skills in programming, design, and narrative building</li>
+                <li>Fast-paced game jam environment to test your ability to work under pressure</li>
+                <li>Recognition for the most innovative and engaging game aligned with the theme</li>
               </ul>
               <p className='text-[18px]'>
-              Compete, create, and collaborate to make a difference in Cloudathon 2025!
+              Whether you’re an aspiring developer or a seasoned creator, Game Mania is your platform to innovate, collaborate, and shine in the world of game development!
               </p>
             </div>
           </motion.div>

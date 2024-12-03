@@ -15,13 +15,13 @@ export default function TDescription2() {
           >
             <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About Cloud Innovators</h2>
             <div className="prose prose-lg text-gray-600">
-              <p className="mb-4 text-[18px]">
+              <p className="mb-4 text-[18px] text-justify">
                 Cloud Innovators is an exciting MCQ quiz competition designed to test and showcase your knowledge of cloud computing. This event challenges participants to demonstrate their understanding of cloud technologies, services, and best practices in a fast-paced, competitive environment.
               </p>
               <p className="mb-4 text-[18px]">
                 Throughout the competition, you'll be tested on:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>Cloud service models (IaaS, PaaS, SaaS)</li>
                 <li>Major cloud providers and their services</li>
                 <li>Cloud security and compliance</li>

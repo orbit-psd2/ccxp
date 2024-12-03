@@ -45,6 +45,7 @@ import ManiaRules from './pages/GameMania/ManiaRules'
 import CloudDesc from './pages/Cloudathon/Description'
 import CloudOverview from './pages/Cloudathon/Overview'
 import CloudRules from './pages/Cloudathon/Rules'
+import PaymentPage from './components/PaymentPage'
 
 
 const router = createBrowserRouter([
@@ -236,6 +237,14 @@ const router = createBrowserRouter([
       <CloudDesc/>
       <CloudRules/>
       <Footer/>
+      </>
+    )
+  },
+  {
+    path: '/payment',
+    element: (
+      <>
+      <PaymentPage/>
       </>
     )
   },

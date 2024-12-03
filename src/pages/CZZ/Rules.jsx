@@ -41,7 +41,7 @@ export default function NTRules6() {
                 <AlertCircle className="w-6 h-6 mr-2 text-orange-500" />
                 Rules and Regulations
               </h3>
-              <ul className="space-y-4 text-[18px]">
+              <ul className="space-y-4 text-[18px] text-justify">
                 {rules.map((rule, index) => (
                   <motion.li
                     key={index}
@@ -62,7 +62,7 @@ export default function NTRules6() {
                 <AlertCircle className="w-6 h-6 mr-2 text-orange-500" />
                 Requirements
               </h3>
-              <ul className="space-y-4 text-[18px]">
+              <ul className="space-y-4 text-[18px] text-justify">
                 {requirements.map((requirement, index) => (
                   <motion.li
                     key={index}

@@ -1,13 +1,23 @@
 import { motion } from 'framer-motion';
 import { Calendar, Clock, MapPin, Phone, User } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 export default function TOverview2() {
+  
+  const handleRegister = () => {
+      const paymentLink = "https://youtube.com/"
+
+      window.open(paymentLink, "_blank");
+    };
+  
+
   return (
     <div className="relative min-h-[80vh] flex items-center">
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://www.researchhq.net/wp-content/uploads/2021/03/cloud-computing_-copy.jpg")',
+          backgroundImage: 'url(https://www.researchhq.net/wp-content/uploads/2021/03/cloud-computing_-copy.jpg)',
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
@@ -27,22 +37,22 @@ export default function TOverview2() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Calendar className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">25-03-2024</span>
+                <span className="text-2xl font-pridi">31-01-2025</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">SEMINAR HALL 1</span>
+                <span className="text-2xl font-pridi">GALLERY HALL 3</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">10:00 AM</span>
+                <span className="text-2xl font-pridi">10:00 AM - 3:40 PM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 50/-</span>
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-9">
               <div>
                 <h3 className="text-2xl font-medium mb-3 flex items-center font-pridi">
                   <User className="w-6 h-6 mr-2 text-blue-400" />
@@ -51,11 +61,15 @@ export default function TOverview2() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Aditya Kumar - 9876543212
+                    S P Nithin - 9940022364
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Sneha Gupta - 9876543213
+                    Ananya Nair - 8939974417
+                  </li>
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
+                    Meera Eldho - 8921831627
                   </li>
                 </ul>
               </div>
@@ -73,12 +87,12 @@ export default function TOverview2() {
             </div>
           </div>
 
-          <motion.button
+          <motion.button onClick={handleRegister}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 font-poppins py-3 rounded-full tracking-widest font-semibold text-xl shadow-lg hover:shadow-xl transition-shadow"
           >
-            REGISTER
+            <Link to='/payment'>REGISTER</Link>
           </motion.button>
         </motion.div>
       </div>

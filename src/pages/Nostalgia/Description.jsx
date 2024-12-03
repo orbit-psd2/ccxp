@@ -21,14 +21,14 @@ export default function NTDescription7() {
               <p className="mb-4 text-[18px]">
               Event highlights include:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>Classic childhood games like Stone Paper Scissors, Snake and Ladder, and more</li>
                 <li>A chance to relive cherished memories and reconnect with your younger self</li>
                 <li>Friendly competitions to share laughter and excitement with friends</li>
                 <li>An atmosphere of joy and simplicity that captures the essence of childhood fun</li>
                 <li>Opportunities to create new memories while revisiting old favourites</li>
               </ul>
-              <p className='text-[18px]'>
+              <p className='text-[18px] text-justify'>
               Join Nostalgia to celebrate the magic of childhood and embrace the delight of simpler times!
               </p>
             </div>

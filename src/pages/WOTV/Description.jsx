@@ -21,14 +21,14 @@ export default function NTDescription3() {
               <p className="mb-4 text-[18px]">
               Event highlights include:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>Dynamic team-based gameplay with one player blindfolded and the other giving clues</li>
                 <li>Creative enactments to describe scenes or shows from the TV screen</li>
                 <li>Test of communication skills to deliver and interpret hints effectively</li>
                 <li>Entertaining and unpredictable scenarios that challenge your teamwork under pressure</li>
                 <li>A thrilling experience to bond, laugh, and showcase your collaborative talents</li>
               </ul>
-              <p className='text-[18px]'>
+              <p className='text-[18px] text-justify'>
               Join the excitement and see how well you and your partner can sync in What's on TV!
               </p>
             </div>

@@ -15,13 +15,13 @@ export default function TDescription3() {
           >
             <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About Code Computing</h2>
             <div className="prose prose-lg text-gray-600">
-              <p className="mb-4 text-[18px]">
+              <p className="mb-4 text-[18px] text-justify">
               Join us for an adrenaline-pumping programming event, designed to challenge and elevate your coding skills. This competition will test your problem-solving abilities, speed, and efficiency under pressure.
               </p>
               <p className="mb-4 text-[18px]">
               Throughout the challenge, you'll engage with:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>Diverse programming problems across various domains</li>
                 <li>Real-time coding sessions with a strict time limit to solve complex challenges</li>
                 <li>Techniques for optimizing code to achieve efficient and scalable solutions</li>

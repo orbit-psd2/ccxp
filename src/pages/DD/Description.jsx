@@ -15,13 +15,13 @@ export default function NTDescription1() {
           >
             <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About Desgin Dash</h2>
             <div className="prose prose-lg text-gray-600">
-              <p className="mb-4 text-[18px]">
+              <p className="mb-4 text-[18px] text-justify">
               Unleash your creativity in this thrilling design competition, where quick thinking and adaptability are key. Participants will face exciting challenges and showcase their design talents under pressure.
               </p>
               <p className="mb-4 text-[18px]">
               Throughout the event, you'll experience:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>On-the-spot design challenges with topics revealed during the competition</li>
                 <li>Tasks to create stunning posters, logos, and more within a tight time frame</li>
                 <li>Opportunities to showcase your creativity and design skills in a fast-paced environment</li>

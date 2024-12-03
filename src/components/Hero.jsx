@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import CCXP from '../images/CCXPMAIN.png'
 import { Link } from 'react-router-dom';
+import SRM from '../images/srmlogo.png'
 
 const Shape = ({ className, whileHover }) => (
   <motion.div
@@ -19,15 +20,15 @@ export default function Hero() {
       
       {/* Decorative shapes */}
       <Shape 
-        className="w-[100px] h-[100px] bg-orange-300 rounded-full top-20 left-20 opacity-50 cursor-pointer max-sm:hidden"
+        className="w-[120px] h-[120px] bg-orange-300 rounded-full top-[150px] left-20 opacity-50 cursor-pointer max-sm:hidden"
         whileHover={{ scale: 1.2, rotate: 90 }}
       />
       <Shape 
-        className="w-[100px] h-[100px] bg-purple-300 rounded-md top-40 right-20 opacity-50 cursor-pointer max-sm:hidden"
+        className="w-[150px] h-[150px] bg-purple-300 rounded-md top-40 right-20 opacity-50 cursor-pointer max-sm:hidden"
         whileHover={{ scale: 1.2, rotate: -45 }}
       />
       <Shape 
-        className="w-[110px] h-[110px] bg-blue-300 rounded-lg bottom-20 left-40 opacity-50 cursor-pointer max-sm:hidden"
+        className="w-[130px] h-[130px] bg-blue-300 rounded-lg bottom-20 left-40 opacity-50 cursor-pointer max-sm:hidden"
         whileHover={{ scale: 1.2, skew: 10 }}
       />
       <Shape 
@@ -44,11 +45,21 @@ export default function Hero() {
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
+          whileHover={{scale: 1.0}}
+          transition={{ delay: 0, type: "spring" }}
+          className="flex justify-center cursor-pointer mt-[100px]"
+        >
+          <img src={SRM} alt="Logo" width={500} height={500} />
+        </motion.div>
+
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
           whileHover={{scale: 1.1}}
           transition={{ delay: 0.2, type: "spring" }}
           className="flex justify-center cursor-pointer"
         >
-          <img src={CCXP} alt="Logo" width={300} height={300} />
+          <img src={CCXP} alt="Logo" width={400} height={400} />
         </motion.div>
         
         <motion.h1 

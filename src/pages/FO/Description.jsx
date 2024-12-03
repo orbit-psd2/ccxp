@@ -21,7 +21,7 @@ export default function NTDescription2() {
               <p className="mb-4 text-[18px]">
               Event highlights include:
               </p>
-              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3">
+              <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
                 <li>Head-to-head matches that test your tactical thinking and reflexes</li>
                 <li>Fast-paced gameplay requiring precision and quick decision-making</li>
                 <li>Showcase of game mechanics expertise and strategic execution</li>

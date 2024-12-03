@@ -2,6 +2,11 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, MapPin, Phone, User } from 'lucide-react';
 
 export default function TOverview1() {
+  const handleRegister = () => {
+    const paymentLink = "https://youtube.com/"
+
+    window.open(paymentLink, "_blank");
+  };
   return (
     <div className="relative min-h-[80vh] flex items-center">
       {/* Background Image with Overlay */}
@@ -44,7 +49,7 @@ export default function TOverview1() {
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-9">
               <div>
                 <h3 className="text-2xl font-medium font-pridi mb-3 flex items-center">
                   <User className="w-6 h-6 mr-2 text-orange-400" />
@@ -53,19 +58,11 @@ export default function TOverview1() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-orange-400" />
-                    Nithin S.P - 9940022364
+                    Surya - 7358660760
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-orange-400" />
-                    Vivek Sai - 9398584426
-                  </li>
-                  <li className="flex items-center font-pridi text-xl">
-                    <Phone className="w-5 h-5 mr-2 text-orange-400" />
-                    Revanth Gourishetti - 8125430047
-                  </li>
-                  <li className="flex items-center font-pridi text-xl">
-                    <Phone className="w-5 h-5 mr-2 text-orange-400" />
-                    Abhi Ram - 7780208667
+                    Preethi Charishma - 7396792388
                   </li>
                 </ul>
               </div>
@@ -76,14 +73,14 @@ export default function TOverview1() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr.V.Gowri, Asst.Prof/CSE</li>
-                  <li>Mr.A.Madhu, Asst.Prof/CSE</li>
+                  <li>Dr. J. Sutha, Asst.Prof/CSE</li>
+                  <li>Mrs. Sujeetha, Asst.Prof/CSE</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <motion.button
+          <motion.button onClick={handleRegister}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-orange-500 to-purple-600 text-white px-8 py-3 tracking-widest rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow"
