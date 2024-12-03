@@ -11,6 +11,7 @@ export default {
         outfit: ["Outfit" , "sans-serif"],
         audiowide: ["Audiowide", "sans-serif"],
         pridi: ["Pridi", "sans-serif"],
+        titillium: ["Titillum Web", "sans-serif"],
       }
     },
   },

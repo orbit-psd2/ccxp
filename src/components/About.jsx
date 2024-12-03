@@ -20,12 +20,12 @@ export default function About() {
     <section id="about" className="py-17 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold text-center mb-16 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text"
+          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          About CloudCon x Pulse
+          About <span className='uppercase'>CloudCon x Pulse</span>
         </motion.h2>
 
         <motion.div

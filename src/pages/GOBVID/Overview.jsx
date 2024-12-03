@@ -32,11 +32,11 @@ export default function NTOverview5() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Calendar className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">25-03-2024</span>
+                <span className="text-2xl font-pridi">30-01-2025</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">SEMINAR HALL 1</span>
+                <span className="text-2xl font-pridi">GALLERY HALL 4</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
