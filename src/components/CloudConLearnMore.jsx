@@ -16,12 +16,12 @@ export default function CloudConLearnMore() {
         <div className="bg-white shadow-xl rounded-lg overflow-hidden mb-8">
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">What is <span className='font-audiowide tracking-wider uppercase'>CloudCon?</span></h2>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-6 text-justify">
               CloudCon is an innovative cloud computing conference that brings together industry experts, developers, and enthusiasts to explore the latest trends and technologies in cloud computing. This event is part of the larger CloudCon X Pulse'25 initiative, focusing on the intersection of cloud technologies and modern development practices.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-3">Key Features of <span className='font-audiowide tracking-wider uppercase'>CloudCon</span></h3>
-            <ul className="list-disc list-inside text-gray-600 mb-6">
+            <ul className="list-disc list-inside text-gray-600 mb-6 text-justify">
               <li>Expert-led workshops on cloud technologies</li>
               <li>Hands-on sessions with popular cloud platforms</li>
               <li>Networking opportunities with industry professionals</li>
@@ -30,7 +30,7 @@ export default function CloudConLearnMore() {
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-3">Why Attend <span className='font-audiowide tracking-wider uppercase'>CloudCon?</span></h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-6 text-justify">
               CloudCon offers a unique opportunity to gain in-depth knowledge about cloud computing, learn from industry leaders, and connect with like-minded individuals. Whether you're a seasoned professional or just starting your journey in cloud technologies, CloudCon has something valuable to offer.
             </p>
 

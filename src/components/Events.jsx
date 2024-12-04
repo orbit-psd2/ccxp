@@ -86,7 +86,7 @@ export default function Events() {
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-zinc-800 mb-3 uppercase">Cloud 101 (Workshop on Cloud Computing)</h3>
-              <p className="text-zinc-700 mb-6 text-justify">Cloud 101 - Explore the fundamentals of cloud computing, set up your environment, deploy web applications, and gain hands-on experience in this comprehensive workshop!</p>
+              <p className="text-zinc-700 mb-6 text-justify">Explore the fundamentals of cloud computing, set up your environment, deploy web applications, and gain hands-on experience in this comprehensive workshop!</p>
               <Link to='/c101'>
               <motion.button
                 whileHover={{ scale: 1.05 }}

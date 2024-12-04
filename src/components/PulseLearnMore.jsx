@@ -16,12 +16,12 @@ export default function PulseLearnMore() {
         <div className="bg-white shadow-xl rounded-lg overflow-hidden mb-8">
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4 uppercase">What is <span className='font-audiowide tracking-wider uppercase'>Pulse</span>?</h2>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-6 text-justify">
               Pulse is an exciting tech festival that celebrates innovation, creativity, and the latest advancements in technology. As part of the CloudCon X Pulse'25 event, Pulse focuses on a wide range of tech-related activities, workshops, and competitions designed to inspire and challenge participants.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-3 uppercase">Key Features of <span className='font-audiowide tracking-wider uppercase'>Pulse</span>:</h3>
-            <ul className="list-disc list-inside text-gray-600 mb-6">
+            <ul className="list-disc list-inside text-gray-600 mb-6 text-justify">
               <li>Engaging tech workshops and seminars</li>
               <li>Competitive coding challenges</li>
               <li>Game development competitions</li>
@@ -30,7 +30,7 @@ export default function PulseLearnMore() {
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-3 uppercase">Why Participate in <span className='font-audiowide tracking-wider uppercase'>Pulse?</span></h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-6 text-justify">
               Pulse offers a dynamic environment for tech enthusiasts to showcase their skills, learn new technologies, and connect with peers in the industry. Whether you're interested in coding, game development, or exploring the latest tech trends, Pulse provides a platform for growth and innovation.
             </p>
 
