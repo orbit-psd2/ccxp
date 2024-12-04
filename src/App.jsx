@@ -54,6 +54,10 @@ import RecommendedEventsCZ from './pages/CZZ/RecEventsCZ'
 import RecommendedEventsDD from './pages/DD/RecEventsDD'
 import RecommendedEventsFO from './pages/FO/RecEventsFO'
 import RecommendedEventsGDWS from './pages/GDWS/RecEventsGDWS'
+import RecommendedEventsGOB from './pages/GOBVID/RecEventsGOB'
+import RecommendedEventsNOS from './pages/Nostalgia/RecEventsNOS'
+import RecommendedEventsOM from './pages/OM/RecEventsOM'
+import RecommendedEventsWOTV from './pages/WOTV/RecEventsWOTV'
 
 
 
@@ -172,6 +176,7 @@ const router = createBrowserRouter([
       <NTOverview3/>
       <NTDescription3/>
       <NTRules3/>
+      <RecommendedEventsWOTV/>
       <Footer/>
       </>
     )
@@ -185,6 +190,7 @@ const router = createBrowserRouter([
       <NTOverview4/>
       <NTDescription4/>
       <NTRules4/>
+      <RecommendedEventsOM/>
       <Footer/>
       </>
     )
@@ -198,6 +204,7 @@ const router = createBrowserRouter([
       <NTOverview5/>
       <NTDescription5/>
       <NTRules5/>
+      <RecommendedEventsGOB/>
       <Footer/>
       </>
     )
@@ -225,6 +232,7 @@ const router = createBrowserRouter([
       <NTOverview7/>
       <NTDescription7/>
       <NTRules7/>
+      <RecommendedEventsNOS/>
       <Footer/>
       </>
     )
