@@ -12,7 +12,7 @@ const EventCard = ({ title, description, image, link }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={image} alt={title} className="w-full h-[220px] object-cover" />
+      <img src={image} alt={title} className="w-full h-[220px] object-cover"/>
       <div className="p-4">
         <h4 className="font-bold text-lg mb-2 text-gray-800 uppercase">{title}</h4>
         <p className="text-[16px] text-gray-600 mb-4">{description}</p>
