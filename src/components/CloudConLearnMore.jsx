@@ -1,11 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img1 from '../images/gamejam.png'
+import img1 from '../images/pcdoc.jpg'
+import img2 from '../images/groupic1.jpg'
+import img3 from '../images/groupic2.jpg'
+import img4 from '../images/wotv.jpg'
+import img5 from '../images/winnners.jpg'
+import img6 from '../images/mlcp.jpg'
 
 export default function CloudConLearnMore() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-indigo-800 mb-8">Learn More About <span className='font-audiowide tracking-wider uppercase'>CloudCon</span></h1>
         
         <div className="bg-white shadow-xl rounded-lg overflow-hidden mb-8">
@@ -44,13 +49,25 @@ export default function CloudConLearnMore() {
         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4"><span className='font-audiowide tracking-wider uppercase'>CloudCon</span> Gallery</h2>
-            <div className="grid md:grid-cols-1 gap-4 space-x-5 space-y-4">
-              <img src={img1} alt="CloudCon Workshop" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Keynote" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Networking" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Hackathon" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Exhibition" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Panel Discussion" className="w-full h-[400px] object-cover rounded-lg" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img1} alt="CloudCon Workshop" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img2} alt="CloudCon Keynote" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img3} alt="CloudCon Networking" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img4} alt="CloudCon Hackathon" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img5} alt="CloudCon Exhibition" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img6} alt="CloudCon Panel Discussion" className="w-full h-full object-cover rounded-lg" />
+              </div>
             </div>
           </div>
         </div>

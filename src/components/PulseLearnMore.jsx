@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img1 from '../images/gamejam.png'
+import img1 from '../images/pcdoc1.jpg'
+import img2 from '../images/faculties.jpg'
+import img3 from '../images/winners2.jpg'
+import img4 from '../images/gob.jpg'
+import img5 from '../images/groupic3.jpg'
+import img6 from '../images/pcdoc2.jpg'
 
 export default function PulseLearnMore() {
   return (
@@ -43,14 +48,26 @@ export default function PulseLearnMore() {
 
         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4 uppercase"><span className='font-audiowide tracking-wider uppercase'>Pulse</span> Gallery</h2>
-            <div className="grid md:grid-cols-1 gap-6 space-y-4 space-x-5">
-              <img src={img1} alt="Pulse Coding Challenge" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="Pulse Game Dev Competition" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="Pulse Tech Workshop" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="Pulse Innovation Showcase" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="Pulse Networking Event" className="w-full h-[400px] object-cover rounded-lg" />
-              <img src="/placeholder.svg?height=200&width=300" alt="Pulse Keynote Speaker" className="w-full h-[400px] object-cover rounded-lg" />
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4"><span className='font-audiowide tracking-wider uppercase'>CloudCon</span> Gallery</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img1} alt="CloudCon Workshop" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img2} alt="CloudCon Keynote" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img3} alt="CloudCon Networking" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img4} alt="CloudCon Hackathon" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img5} alt="CloudCon Exhibition" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <div className="aspect-w-16 aspect-h-9">
+                <img src={img6} alt="CloudCon Panel Discussion" className="w-full h-full object-cover rounded-lg" />
+              </div>
             </div>
           </div>
         </div>
