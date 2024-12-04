@@ -9,7 +9,7 @@ import img6 from '../images/pcdoc2.jpg'
 
 export default function PulseLearnMore() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 py-[80px] mt-[40px] px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 py-[40px] pb-[50px] mt-[50px] px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-purple-800 mb-8">Learn More About <span className='font-audiowide tracking-wider uppercase'>Pulse</span></h1>
         
@@ -48,7 +48,7 @@ export default function PulseLearnMore() {
 
         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4"><span className='font-audiowide tracking-wider uppercase'>CloudCon</span> Gallery</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4 uppercase"><span className='font-audiowide tracking-wider uppercase'>PULSE</span> Gallery</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div className="aspect-w-16 aspect-h-9">
                 <img src={img1} alt="CloudCon Workshop" className="w-full h-full object-cover rounded-lg" />

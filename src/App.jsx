@@ -280,7 +280,9 @@ const router = createBrowserRouter([
     path: '/cclearnmore',
     element: (
       <>
+      <EventNavbar/>
       <CloudConLearnMore/>
+      <Footer/>
       </>
     )
   },
