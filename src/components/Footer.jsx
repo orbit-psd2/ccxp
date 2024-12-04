@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:space-x-10 sm:space-x-4">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-purple-500 text-transparent bg-clip-text uppercase font-audiowide">CloudCon x Pulse</h3>
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-purple-500 text-transparent bg-clip-text uppercase font-audiowide nav-text hover:opacity-90 transition-opacity duration-300">CloudCon x Pulse</h3>
             <p className="text-gray-400">Empowering the future of cloud and gaming technology.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

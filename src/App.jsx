@@ -291,6 +291,7 @@ const router = createBrowserRouter([
       <>
       <EventNavbar/>
       <PulseLearnMore/>
+      <Footer/>
       </>
     )
   },
