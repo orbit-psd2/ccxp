@@ -53,6 +53,7 @@ import RecommendedEventsCC from './pages/CodeComputing/RecEventsCC'
 import RecommendedEventsCZ from './pages/CZZ/RecEventsCZ'
 import RecommendedEventsDD from './pages/DD/RecEventsDD'
 import RecommendedEventsFO from './pages/FO/RecEventsFO'
+import RecommendedEventsGDWS from './pages/GDWS/RecEventsGDWS'
 
 
 
@@ -101,6 +102,7 @@ const router = createBrowserRouter([
       <TOverview1/>
       <TDescription1/>
       <TRules1/>
+      <RecommendedEventsGDWS/>
       <Footer/>
       </>
     )
