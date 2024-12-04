@@ -52,6 +52,7 @@ import RecommendedEventsCloudathon from './pages/Cloudathon/RecEventsCloudathon'
 import RecommendedEventsCC from './pages/CodeComputing/RecEventsCC'
 import RecommendedEventsCZ from './pages/CZZ/RecEventsCZ'
 import RecommendedEventsDD from './pages/DD/RecEventsDD'
+import RecommendedEventsFO from './pages/FO/RecEventsFO'
 
 
 
@@ -155,6 +156,7 @@ const router = createBrowserRouter([
       <NTOverview2/>
       <NTDescription2/>
       <NTRules2/>
+      <RecommendedEventsFO/>
       <Footer/>
       </>
     )

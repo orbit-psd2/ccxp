@@ -24,7 +24,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    text-shadow: 4px 4px 5px rgba(255, 69, 0, 0.5);
+    text-shadow: 2px 4px 6px rgba(255, 69, 0, 0.7);
   }
 
   @keyframes fireGradient {

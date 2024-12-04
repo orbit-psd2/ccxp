@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import recz from '../C101/RecCZZ.jpg'
-import recnos from '../CodeComputing/RecNostalgia.jpg'
+import om from '../Cloudathon/RecOM.jpg'
+import gob from '../Cloudathon/RECGOB.jpg'
+import cz from '../C101/RecCZZ.jpg'
 
 const EventCard = ({ title, description, image, link }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -28,32 +29,32 @@ const EventCard = ({ title, description, image, link }) => {
   );
 };
 
-const RecommendedEventsCC = () => {
+const RecommendedEventsFO = () => {
   return (
     <div className="rounded-lg p-6 mb-6 background: radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;">
       <h3 className="text-2xl font-bold mb-4 text-gray-800 uppercase">Recommended Events</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <EventCard 
-          title="Nostalgia - To Bring your Childhood Back"
-          description="Relive the magic of your childhood! Join us for a fun-filled experience that brings back cherished memories and classic moments."
-          image= {recnos}
-          link="/nostalgia"
+          title="Open Mic - Express your skills and talents"
+          description="Step into the spotlight and showcase your unique skills and talents. Let your creativity and passion shine!"
+          image= {om}
+          link="/om"
+        />
+        <EventCard 
+          title="GameOn Bidz - IPL Auction"
+          description="Experience the thrill of the IPL auction! Bid, strategize, and build your dream team in this exciting fantasy challenge"
+          image= {gob}
+          link="/gob"
         />
         <EventCard 
           title="Connectionz - Find Answers By Brainstorming"
           description="Step into the spotlight and showcase your unique skills and talents. Let your creativity and passion shine!"
-          image= {recz}
+          image= {cz}
           link="/cz"
-        />
-        <EventCard 
-          title="Design Dash - Ultimate  Design Challenge"
-          description="Unleash your creativity in this ultimate design challenge. Collaborate, innovate, and bring your ideas to life with exciting design tasks!"
-          image= ""
-          link="/dd"
         />
       </div>
     </div>
   );
 };
 
-export default RecommendedEventsCC;
+export default RecommendedEventsFO;
