@@ -17,14 +17,14 @@
     }
   }
   .fire-text {
-    background: linear-gradient(270deg, #ff0000, #ff8c00, #ffa500, #ff4500);
+    background: linear-gradient(270deg, #ee5822, #ea6c0c, #f9f507, #ff8000e4);
     background-size: 300% 300%;
-    animation: fireGradient 3s ease infinite;
+    animation: fireGradient 3s ease-in-out infinite; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    text-shadow: 2px 4px 6px rgba(255, 69, 0, 0.7);
+    text-shadow: 5px 4px 6px rgba(240, 86, 14, 0.616);
   }
 
   @keyframes fireGradient {

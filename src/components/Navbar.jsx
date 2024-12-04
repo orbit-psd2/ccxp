@@ -45,9 +45,9 @@ export default function Navbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-10">
-            <a href="#" className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
-            <a href="#" className="text-zinc-800 hover:text-purple-500  font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
-            <a href="#" className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
+            <a href="#" className="text-zinc-800 hover:text-orange-500 duration-300 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
+            <a href="#" className="text-zinc-800 hover:text-purple-500 duration-300  font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
+            <a href="#" className="text-zinc-800 hover:text-orange-500 duration-300 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
           </div>
 
           <div className="md:hidden">

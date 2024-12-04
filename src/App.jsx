@@ -58,6 +58,8 @@ import RecommendedEventsGOB from './pages/GOBVID/RecEventsGOB'
 import RecommendedEventsNOS from './pages/Nostalgia/RecEventsNOS'
 import RecommendedEventsOM from './pages/OM/RecEventsOM'
 import RecommendedEventsWOTV from './pages/WOTV/RecEventsWOTV'
+import CloudConLearnMore from './components/CloudConLearnMore'
+import PulseLearnMore from './components/PulseLearnMore'
 
 
 
@@ -270,6 +272,24 @@ const router = createBrowserRouter([
     element: (
       <>
       <PaymentPage/>
+      </>
+    )
+  },
+
+  {
+    path: '/cclearnmore',
+    element: (
+      <>
+      <CloudConLearnMore/>
+      </>
+    )
+  },
+
+  {
+    path: '/pulselearnmore',
+    element: (
+      <>
+      <PulseLearnMore/>
       </>
     )
   },

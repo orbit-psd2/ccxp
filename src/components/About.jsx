@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function About() {
   const containerVariants = {
@@ -41,6 +42,7 @@ export default function About() {
               <p className="text-lg text-zinc-700 mb-6 text-justify">
                 CloudCon is the premier cloud computing event, bringing together industry leaders, innovators, and enthusiasts. Dive into the world of cutting-edge cloud technologies, serverless architectures, and DevOps practices. Experience hands-on workshops, insightful talks, and networking opportunities that will elevate your cloud expertise.
               </p>
+              <Link to='/cclearnmore'>
               <motion.button 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -48,6 +50,8 @@ export default function About() {
               >
                 Learn More
               </motion.button>
+              </Link>
+              
             </div>
             <div className="md:w-1/2 rounded-lg overflow-hidden shadow-xl">
               <video 
@@ -70,6 +74,7 @@ export default function About() {
               <p className="text-lg text-zinc-700 mb-6 text-justify">
                 Pulse is the heartbeat of gaming technology innovation. From immersive VR experiences to AI-driven game design, Pulse showcases the future of interactive entertainment. Join us for thrilling esports tournaments, game development workshops, and discussions on the latest trends shaping the gaming industry.
               </p>
+              <Link to='/pulselearnmore'>
               <motion.button 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -77,6 +82,7 @@ export default function About() {
               >
                 Discover More
               </motion.button>
+              </Link>
             </div>
             <div className="md:w-1/2 rounded-lg overflow-hidden shadow-xl">
               <video 
