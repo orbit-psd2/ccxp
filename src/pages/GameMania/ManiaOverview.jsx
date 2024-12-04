@@ -32,18 +32,18 @@ export default function ManiaOverview() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Calendar className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">25-03-2024</span>
+                <span className="text-2xl font-pridi">23-01-2025</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">SEMINAR HALL 1</span>
+                <span className="text-2xl font-pridi">MLCP LAB 3</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
                 <span className="text-2xl font-pridi">10:00 AM</span>
               </div>
               <div className="flex items-center space-x-3">
-                <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 50/-</span>
+                <span className="text-2xl font-medium mt-5 font-pridi">FREE REGISTRATION</span>
               </div>
             </div>
 
