@@ -1,31 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import img1 from '../images/gamejam.png'
 
-const CloudConLearnMore = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
-
-  const images = [
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-  ];
-
+export default function CloudConLearnMore() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-indigo-800 mb-8">Learn More About <span className='font-audiowide uppercase tracking-wider'>CloudCon</span></h1>
+        <h1 className="text-4xl font-bold text-center text-indigo-800 mb-8">Learn More About <span className='font-audiowide tracking-wider uppercase'>CloudCon</span></h1>
         
         <div className="bg-white shadow-xl rounded-lg overflow-hidden mb-8">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold uppercase text-gray-800 mb-4">What is CloudCon?</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">What is <span className='font-audiowide tracking-wider uppercase'>CloudCon?</span></h2>
             <p className="text-gray-600 mb-6">
               CloudCon is an innovative cloud computing conference that brings together industry experts, developers, and enthusiasts to explore the latest trends and technologies in cloud computing. This event is part of the larger CloudCon X Pulse'25 initiative, focusing on the intersection of cloud technologies and modern development practices.
             </p>
 
-            <h3 className="text-xl font-semibold uppercase text-gray-800 mb-3">Key Features of CloudCon:</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">Key Features of <span className='font-audiowide tracking-wider uppercase'>CloudCon</span></h3>
             <ul className="list-disc list-inside text-gray-600 mb-6">
               <li>Expert-led workshops on cloud technologies</li>
               <li>Hands-on sessions with popular cloud platforms</li>
@@ -34,7 +24,7 @@ const CloudConLearnMore = () => {
               <li>Presentations on cutting-edge cloud innovations</li>
             </ul>
 
-            <h3 className="text-xl font-semibold uppercase text-gray-800 mb-3">Why Attend CloudCon?</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">Why Attend <span className='font-audiowide tracking-wider uppercase'>CloudCon?</span></h3>
             <p className="text-gray-600 mb-6">
               CloudCon offers a unique opportunity to gain in-depth knowledge about cloud computing, learn from industry leaders, and connect with like-minded individuals. Whether you're a seasoned professional or just starting your journey in cloud technologies, CloudCon has something valuable to offer.
             </p>
@@ -53,29 +43,18 @@ const CloudConLearnMore = () => {
 
         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="p-6">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4 uppercase">CloudCon Gallery</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {images.map((src, index) => (
-                <img
-                  key={index}
-                  src={src}
-                  alt={`CloudCon event ${index + 1}`}
-                  className="w-full h-40 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity"
-                  onClick={() => setSelectedImage(src)}
-                />
-              ))}
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4"><span className='font-audiowide tracking-wider uppercase'>CloudCon</span> Gallery</h2>
+            <div className="grid md:grid-cols-1 gap-4 space-x-5 space-y-4">
+              <img src={img1} alt="CloudCon Workshop" className="w-full h-[400px] object-cover rounded-lg" />
+              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Keynote" className="w-full h-[400px] object-cover rounded-lg" />
+              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Networking" className="w-full h-[400px] object-cover rounded-lg" />
+              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Hackathon" className="w-full h-[400px] object-cover rounded-lg" />
+              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Exhibition" className="w-full h-[400px] object-cover rounded-lg" />
+              <img src="/placeholder.svg?height=200&width=300" alt="CloudCon Panel Discussion" className="w-full h-[400px] object-cover rounded-lg" />
             </div>
           </div>
         </div>
       </div>
-
-      {selectedImage && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50" onClick={() => setSelectedImage(null)}>
-          <img src={selectedImage} alt="Enlarged CloudCon event" className="max-w-full max-h-full" />
-        </div>
-      )}
     </div>
   );
-};
-
-export default CloudConLearnMore;
+}

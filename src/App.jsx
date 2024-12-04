@@ -289,6 +289,7 @@ const router = createBrowserRouter([
     path: '/pulselearnmore',
     element: (
       <>
+      <EventNavbar/>
       <PulseLearnMore/>
       </>
     )
