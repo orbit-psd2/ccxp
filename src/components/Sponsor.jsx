@@ -77,7 +77,7 @@ export default function Sponsors() {
         >
           <p className="text-xl text-gray-600 mb-6">Interested in becoming a sponsor?</p>
           <motion.a
-            href="#contact"
+            href="#"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block uppercase bg-gradient-to-r from-orange-500 to-purple-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
