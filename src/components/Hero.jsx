@@ -48,7 +48,7 @@ export default function Hero() {
           className="mb-4"
         >
           <motion.h2 
-            className="text-4xl md:text-[40px] font-bold text-gray-800 mt-[130px]"
+            className="text-4xl md:text-[40px] font-bold text-gray-800 mt-[120px]"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -84,7 +84,7 @@ export default function Hero() {
         </motion.div>
         
         <motion.h1 
-          className="text-6xl md:text-6xl font-bold bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text mb-6"
+          className="text-6xl md:text-6xl font-bold bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text mb-[60px]"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
@@ -93,16 +93,16 @@ export default function Hero() {
         </motion.h1>
         
         <motion.p 
-          className="text-xl md:text-3xl font-semibold font-titillium bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-violet-400  to-blue-950 bg-clip-text text-transparent mb-5 max-sm:text-[25px]"
+          className="text-xl md:text-3xl font-semibold font-right tracking-wider bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-violet-400  to-blue-950 bg-clip-text text-transparent mb-[45px] max-sm:text-[25px] uppercase"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          30-31 January 2025
+          30 - 31  January 2025
         </motion.p>
 
         <motion.p 
-          className="text-xl md:text-3xl font-titillium font-semibold text-black mb-8"
+          className="text-xl md:text-3xl font-titillium uppercase font-semibold text-black mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.7 }}

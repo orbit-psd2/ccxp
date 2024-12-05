@@ -41,13 +41,13 @@ export default function Navbar() {
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="md:text-[22px] font-bold text-zinc-800 font-audiowide max-sm:text-[19px] max-md:text-[22px] uppercase"><Link className="nav-text hover:opacity-90 transition-opacity duration-300" to='/'>CloudCon X Pulse'25</Link></span>
+            <span className="md:text-[24px] font-bold text-zinc-800 font-audiowide max-sm:text-[19px] max-md:text-[22px] uppercase"><Link className="nav-text hover:opacity-90 transition-opacity duration-300" to='/'>CloudCon X Pulse'25</Link></span>
           </div>
           
           <div className="hidden md:flex items-center space-x-10">
-            <a href="#" className="text-zinc-800 hover:text-orange-500 duration-300 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
-            <a href="#" className="text-zinc-800 hover:text-purple-500 duration-300  font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
-            <a href="#" className="text-zinc-800 hover:text-orange-500 duration-300 font-outfit uppercase transition-colors font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
+            <a href="#" className="text-zinc-800 hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
+            <a href="#" className="text-zinc-800 hover:text-purple-500 duration-300  font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
+            <a href="#" className="text-zinc-800 hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
           </div>
 
           <div className="md:hidden">
