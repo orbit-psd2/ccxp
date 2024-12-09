@@ -7,6 +7,12 @@ import OpenMic from '../images/OpenMIc.jpg'
 import Nostalgia from '../images/Nostalgia.jpg'
 import Connectionz from '../images/Connectionz.jpg'
 import GameDevWorkshop from '../images/GameDevWorkshop.jpg'
+import C101 from '../images/c101.png'
+import CodeComputing from '../images/codecomputing.png'
+import Cloudathon from '../images/cloudathon.png'
+import DesginDash from '../images/dd.png'
+import FaceOff from '../images/fo.png'
+import WOTV from '../images/wotv.png'
 
 
 export default function Events() {
@@ -82,7 +88,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://www.ingenious.co.uk/wp-content/uploads/2023/08/What-is-Cloud-Computing-and-How-Can-it-Benefit-Our-Company-1024x512.jpeg" 
+                src= {C101} 
                 alt="CLOUD INNOVATORS"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
@@ -110,7 +116,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {CodeComputing} 
                 alt="GAME DEV CHALLENGE"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
@@ -154,7 +160,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {DesginDash} 
                 alt="GAMING TOURNAMENT"
                 className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
@@ -182,7 +188,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {FaceOff} 
                 alt="TECH TREASURE HUNT"
                 className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
@@ -210,7 +216,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/668296/pexels-photo-668296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src= {WOTV} 
                 alt="DIGITAL ART SHOWCASE"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
@@ -393,7 +399,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D5612AQEqJqAHMdW2_Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1708394467259?e=1738800000&v=beta&t=NW2bd1TtjnpLWDCOrkCRVTsUM2JXOHjzW0CqqKGTPXM" 
+                src= {Cloudathon} 
                 alt="CLOUD INNOVATORS"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
