@@ -45,9 +45,15 @@ export default function Navbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-10">
-            <a href="#" className="text-zinc-900 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/'>Home</Link></a>
-            <a href="#" className="text-zinc-800 tracking-wider hover:text-purple-500 duration-300  font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
-            <a href="#" className="text-zinc-800 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
+            <a href="#" className="text-zinc-900 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/' onClick={() => {
+            window.scrollTo(0, 0);
+          }}>Home</Link></a>
+            <a href="#" className="text-zinc-800 tracking-wider hover:text-purple-500 duration-300  font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/events' onClick={() => {
+            window.scrollTo(0, 0);
+          }}>Events</Link></a>
+            <a href="#" className="text-zinc-800 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/contact' onClick={() => {
+            window.scrollTo(0, 0);
+          }}>Contact</Link></a>
           </div>
 
           <div className="md:hidden">
@@ -102,7 +108,7 @@ export default function Navbar() {
               </svg>
             </button>
             <div className="flex flex-col items-center justify-center h-full space-y-8">
-              <Link to='/' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Home</Link>
+              <Link to='/' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu} >Home</Link>
               <Link to='/events' className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Events</Link>
               <Link to='/contact' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Contact</Link>
             </div>
