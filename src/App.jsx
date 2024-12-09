@@ -61,6 +61,21 @@ import RecommendedEventsWOTV from './pages/WOTV/RecEventsWOTV'
 import CloudConLearnMore from './components/CloudConLearnMore'
 import PulseLearnMore from './components/PulseLearnMore'
 
+const Layout = ({ children, useEventNavbar = false }) => (
+  <>
+    {useEventNavbar ? <EventNavbar /> : <Navbar />}
+    <ScrollToTop />
+    {children}
+    <Footer />
+  </>
+);
+
+const EventLayout = ({ children }) => (
+  <Layout useEventNavbar={true}>
+    {children}
+  </Layout>
+);
+
 
 
 const router = createBrowserRouter([

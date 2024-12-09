@@ -18,6 +18,9 @@ const EventCard = ({ title, description, image, link }) => {
         <Link 
           to={link}
           className="bg-black text-white px-4 py-2 rounded-full text-sm font-semibold inline-flex items-center group"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
         >
           View
           <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
