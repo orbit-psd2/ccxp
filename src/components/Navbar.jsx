@@ -45,13 +45,13 @@ export default function Navbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-10">
-            <a href="#" className="text-zinc-900 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/' onClick={() => {
+            <a className="text-zinc-900 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/' onClick={() => {
             window.scrollTo(0, 0);
           }}>Home</Link></a>
-            <a href="#" className="text-zinc-800 tracking-wider hover:text-purple-500 duration-300  font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/events' onClick={() => {
+            <a  className="text-zinc-800 tracking-wider hover:text-purple-500 duration-300  font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/events' onClick={() => {
             window.scrollTo(0, 0);
           }}>Events</Link></a>
-            <a href="#" className="text-zinc-800 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/contact' onClick={() => {
+            <a  className="text-zinc-800 tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/contact' onClick={() => {
             window.scrollTo(0, 0);
           }}>Contact</Link></a>
           </div>
