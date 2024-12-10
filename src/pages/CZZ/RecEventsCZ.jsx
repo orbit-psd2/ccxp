@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import recz from '../C101/RecCZZ.jpg'
 import recgdws from '../CZZ/RecGDWS.jpg'
+import recfo from '../C101/RecFO.png'
 
 const EventCard = ({ title, description, image, link }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -39,7 +40,7 @@ const RecommendedEventsCZ = () => {
         <EventCard 
           title="Face Off: The Competitive Gaming Showdown"
           description="Gear up for an electrifying gaming showdown! Compete head-to-head, showcase your skills, and emerge as the ultimate gaming champion!"
-          image= ""
+          image= {recfo}
           link="/fo"
         />
         <EventCard 
