@@ -60,6 +60,7 @@ import RecommendedEventsOM from './pages/OM/RecEventsOM'
 import RecommendedEventsWOTV from './pages/WOTV/RecEventsWOTV'
 import CloudConLearnMore from './components/CloudConLearnMore'
 import PulseLearnMore from './components/PulseLearnMore'
+import ImageCarousel from './components/Carousel'
 
 const Layout = ({ children, useEventNavbar = false }) => (
   <>
@@ -86,6 +87,7 @@ const router = createBrowserRouter([
       <Navbar/>
       <Hero/>
       <About/>
+      <ImageCarousel/>
       <Events/>
       <Sponsor/>
       <Footer/>
@@ -114,6 +116,7 @@ const router = createBrowserRouter([
       </>
     )
   },
+
 
   {
     path: '/gdws',
