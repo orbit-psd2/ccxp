@@ -48,7 +48,7 @@ export default function Hero() {
           className="mb-4"
         >
           <motion.h2 
-            className="text-4xl md:text-[40px] font-bold text-gray-800 mt-[120px]"
+            className="text-4xl md:text-[40px] font-bold text-gray-800 mt-[100px]"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -78,7 +78,7 @@ export default function Hero() {
           animate={{ scale: 1 }}
           whileHover={{scale: 1.1}}
           transition={{ delay: 0, type: "spring" }}
-          className="flex justify-center cursor-pointer"
+          className="flex justify-center cursor-pointer mt-[-15px]"
         >
           <img src={CCXP} alt="CloudCon x Pulse Logo" width={400} height={400} />
         </motion.div>
