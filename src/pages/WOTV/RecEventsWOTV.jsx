@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import CZ from '../C101/RecCZZ.jpg'
 import OM from '../Cloudathon/RecOM.jpg'
+import reccthon from '../DD/RecCloudathon.png'
 
 const EventCard = ({ title, description, image, link }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -39,7 +40,7 @@ const RecommendedEventsWOTV = () => {
         <EventCard 
           title="Cloudathon: Cloud Computing Hackathon"
           description="Dive into the world of cloud computing in this ultimate hackathon! Collaborate, innovate, and build cutting-edge cloud-based solutions in a competitive, high-energy environment"
-          image= ""
+          image= {reccthon}
           link="/hackathon2"
         />
         <EventCard 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import recz from '../C101/RecCZZ.jpg'
 import recnos from '../CodeComputing/RecNostalgia.jpg'
+import recdd from '../CodeComputing/RecDD.png'
 
 const EventCard = ({ title, description, image, link }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -51,7 +52,7 @@ const RecommendedEventsCC = () => {
         <EventCard 
           title="Design Dash - Ultimate  Design Challenge"
           description="Unleash your creativity in this ultimate design challenge. Collaborate, innovate, and bring your ideas to life with exciting design tasks!"
-          image= ""
+          image= {recdd}
           link="/dd"
         />
       </div>
