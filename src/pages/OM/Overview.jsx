@@ -3,7 +3,7 @@ import { Calendar, Clock, MapPin, Phone, User } from 'lucide-react';
 
 export default function NTOverview4() {
   const handleRegister = () => {
-    const paymentLink = "https://youtube.com/"
+    const paymentLink = "https://www.srmist.edu.in/"
 
     window.open(paymentLink, "_blank");
   };
@@ -18,7 +18,7 @@ export default function NTOverview4() {
         <div className="absolute inset-0 bg-black/70"></div>
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 py-[130px] pb-[191px] text-white">
+      <div className="relative z-10 container mx-auto px-6 py-[130px] pb-[256px] text-white">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

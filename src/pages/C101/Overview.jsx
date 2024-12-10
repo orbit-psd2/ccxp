@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 export default function TOverview2() {
   
   const handleRegister = () => {
-      const paymentLink = "https://youtube.com/"
+      const paymentLink = "https://www.srmist.edu.in/"
 
       window.open(paymentLink, "_blank");
     };

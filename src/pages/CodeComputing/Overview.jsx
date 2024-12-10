@@ -3,7 +3,7 @@ import { Calendar, Clock, MapPin, Phone, User } from 'lucide-react';
 
 export default function TOverview3() {
   const handleRegister = () => {
-    const paymentLink = "https://youtube.com/"
+    const paymentLink = "https://www.srmist.edu.in/"
 
     window.open(paymentLink, "_blank");
   };
