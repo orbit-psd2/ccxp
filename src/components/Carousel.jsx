@@ -50,7 +50,7 @@ export default function ImageCarousel() {
   };
 
   return (
-    <div className="w-full mt-[80px] max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-11 sm:py-16 lg:py-20">
+    <div className="w-full mt-[80px] max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-10">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl uppercase font-bold text-center mb-8 sm:mb-12 text-gray-800">
         <span className='font-audiowide'>CloudCon x Pulse</span> - Previous Year Highlights
       </h2>
@@ -58,18 +58,18 @@ export default function ImageCarousel() {
         <Slider {...settings} className="cloudcon-slider">
           {images.map((src, index) => (
             <div key={index} className="outline-none focus:outline-none">
-              <div className="aspect-w-16 aspect-h-9 sm:aspect-h-7 lg:aspect-h-5">
+              <div className="aspect-w-16 aspect-h-9 sm:aspect-h-7 lg:aspect-h-6">
                 <img
                   src={src}
                   alt={`CloudCon x Pulse Event ${index + 1}`}
-                  className="w-full h-full object-cover rounded-lg shadow-lg"
+                  className="w-full h-full object-cover rounded-lg shadow-lg max-h-[70vh]"
                 />
               </div>
             </div>
           ))}
         </Slider>
       </div>
-      <p className="text-center mt-6 text-gray-600 italic text-[16px] sm:text-base">
+      <p className="text-center mt-12 text-gray-600 italic text-[18px] sm:text-base">
         Swipe or use arrow keys to navigate through the images
       </p>
     </div>
