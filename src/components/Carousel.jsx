@@ -50,7 +50,7 @@ export default function ImageCarousel() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-11 sm:py-16 lg:py-20">
+    <div className="w-full mt-[80px] max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-11 sm:py-16 lg:py-20">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl uppercase font-bold text-center mb-8 sm:mb-12 text-gray-800">
         <span className='font-audiowide'>CloudCon x Pulse</span> - Previous Year Highlights
       </h2>

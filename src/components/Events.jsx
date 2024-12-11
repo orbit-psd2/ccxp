@@ -37,7 +37,7 @@ export default function Events() {
   };
 
   return (
-    <section className="pb-[100px] px-4" style={{
+    <section className="pb-[100px] pt-[100px] px-4" style={{
       background: "radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;"
     }}>
       <div className="max-w-7xl mx-auto">
