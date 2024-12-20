@@ -121,6 +121,9 @@ export default function Hero() {
             className="border-2 border-zinc-800 hover:bg-slate-900 hover:text-white shadow-lg text-black px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 inline-block mb-[100px]"
             whileHover={{ scale: 1.0 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => 
+              window.scrollTo(0,0)
+            }
           >
             Explore Events
           </motion.a>
