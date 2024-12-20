@@ -46,7 +46,7 @@ export default function About() {
             window.scrollTo(0, 0);
           }}>
               <motion.button 
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.95 }}
                 className="font-poppins shadow-lg border-2 border-zinc-900 px-6 py-2 hover:bg-orange-300 rounded-full font-semibold uppercase transition-all hover:border-orange-300"
               >
@@ -80,7 +80,7 @@ export default function About() {
             window.scrollTo(0, 0);
           }}>
               <motion.button 
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.95 }}
                 className="font-poppins shadow-lg border-2 border-zinc-900 px-6 py-2 hover:bg-purple-400 rounded-full font-semibold uppercase transition-all hover:border-purple-400"
               >

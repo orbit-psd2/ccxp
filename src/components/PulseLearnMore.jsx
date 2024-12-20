@@ -38,6 +38,9 @@ export default function PulseLearnMore() {
               <Link 
                 to="/events"
                 className="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold inline-flex items-center group hover:bg-purple-700 transition-colors"
+                onClick={() => 
+                  window.scrollTo(0,0)
+                }
               >
                 Discover Pulse Events
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
