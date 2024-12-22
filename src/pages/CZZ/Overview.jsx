@@ -71,8 +71,8 @@ export default function NTOverview6() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr. Jean Justus, Prof/CSE</li>
-                  <li>Mr. Santhosh Kumar, Asst.Prof/CSE</li>
+                  <li>Dr. Jean Justus</li>
+                  <li>Mr. Santhosh Kumar</li>
                 </ul>
               </div>
             </div>

@@ -80,8 +80,8 @@ export default function TOverview2() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr. Rajesh Verma, Prof/CSE</li>
-                  <li>Ms. Anjali Singh, Asst.Prof/CSE</li>
+                  <li>Dr.T.Tamilselvi</li>
+                  <li>Mrs.Ramaprabha M</li>
                 </ul>
               </div>
             </div>
