@@ -43,7 +43,7 @@ export default function CloudOverview() {
                 <span className="text-2xl font-pridi">10:00 AM</span>
               </div>
               <div className="flex items-center space-x-3">
-                <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 50/-</span>
+                <span className="text-2xl font-medium mt-5 font-pridi">FREE REGISTRATION</span>
               </div>
             </div>
 

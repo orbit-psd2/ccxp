@@ -4,11 +4,13 @@ import { AlertCircle, Check } from 'lucide-react';
 export default function TRules2() {
   const rules = [
     "Participants must register as individuals, no team entries are allowed",
-    "All programming must be done on the provided platform external software or compilers are not permitted",
-    "Plagiarism is strictly prohibited, any detected cases will lead to immediate disqualification",
-    "Internet usage is allowed solely for accessing the competition platform",
-    "Decisions made by the judges are final and binding",
-    "Participants must adhere to time limits for each challenge to ensure fair play",
+    "All programming tasks must be completed on the provided competition platform. External software, compilers, or IDEs are strictly prohibited",
+    "Plagiarism in any form will result in immediate disqualification. Each participant must submit original solutions",
+    "Internet usage is permitted solely for accessing the competition platform. Searching for solutions, concepts, or external resources is prohibited",
+    "The decisions made by the panel of judges are final and binding",
+    "Participants must strictly adhere to the time limits set for each round. Late submissions will not be considered",
+    "Participants must ensure their devices are ready (e.g., proper internet connection and functioning hardware) before the event starts. The organizing team will not be responsible for technical issues on participants' devices",
+    "All submissions must be made through the competition platform. Offline or late submissions will not be accepted"
   ];
 
 

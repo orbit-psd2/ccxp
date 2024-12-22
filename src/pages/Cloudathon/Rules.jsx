@@ -13,12 +13,6 @@ export default function CloudRules() {
     "Prizes will be awarded to the top 3 performers of the final round"
   ];
 
-  const requirements = [
-    "Laptop with stable internet connection",
-    "Basic understanding of cloud computing concepts",
-    "Knowledge of major cloud service providers",
-    "Familiarity with cloud deployment models and service types"
-  ];
 
   return (
     <section className="py-16" style={{
@@ -31,17 +25,14 @@ export default function CloudRules() {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl font-bold mb-12 text-center text-gray-800">
-            Rules & Requirements
-          </h2>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-1 gap-12">
             <div>
-              <h3 className="text-2xl font-semibold mb-6 flex items-center text-gray-800">
+              <h3 className="text-3xl max-sm:text-[22px] font-semibold mb-6 flex items-center text-center uppercase text-gray-800">
                 <AlertCircle className="w-6 h-6 mr-2 text-orange-500" />
                 Rules and Regulations
               </h3>
-              <ul className="space-y-4 text-[18px] text-justify">
+              <ul className="space-y-4 text-[20px] max-sm:text-[16px] text-justify">
                 {rules.map((rule, index) => (
                   <motion.li
                     key={index}
@@ -57,26 +48,6 @@ export default function CloudRules() {
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-2xl font-semibold mb-6 flex items-center text-gray-800">
-                <AlertCircle className="w-6 h-6 mr-2 text-orange-500" />
-                Requirements
-              </h3>
-              <ul className="space-y-4 text-[18px] text-justify">
-                {requirements.map((requirement, index) => (
-                  <motion.li
-                    key={index}
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                    className="flex items-start"
-                  >
-                    <Check className="w-5 h-5 mr-2 text-green-500 mt-1 flex-shrink-0" />
-                    <span className="text-gray-600">{requirement}</span>
-                  </motion.li>
-                ))}
-              </ul>
-            </div>
           </div>
 
           <div className="mt-12 p-4 bg-orange-50 border border-orange-200 rounded-lg">
