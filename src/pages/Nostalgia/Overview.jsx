@@ -76,7 +76,7 @@ export default function NTOverview7() {
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
                   <li>Dr.Tamilselvi</li>
-                  <li>Mrs. Ramaprabha</li>
+                  <li>Mrs. Ramaprabha </li>
                 </ul>
               </div>
             </div>

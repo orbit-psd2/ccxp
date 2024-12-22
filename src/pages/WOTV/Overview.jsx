@@ -75,8 +75,8 @@ export default function NTOverview3() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr. Rajesh Verma</li>
-                  <li>Ms. Anjali Singh</li>
+                  <li>Dr.T.Tamilselvi</li>
+                  <li>Ms.Ramaprabha M</li>
                 </ul>
               </div>
             </div>
