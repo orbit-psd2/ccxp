@@ -1,14 +1,16 @@
 import { motion } from 'framer-motion';
 import { Calendar, Clock, MapPin, Phone, User } from 'lucide-react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 
 export default function TOverview2() {
+  const [showForm, setShowForm] = useState(false)
+
+  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSfxdmmBV4KZbxvcCfB8uEu1l2-n3nrDPSk8Y1AFSjrPOt1k_A/viewform?embedded=true";
   
   const handleRegister = () => {
-      const paymentLink = "https://www.srmist.edu.in/"
-
-      window.open(paymentLink, "_blank");
+      setShowForm(true)
     };
   
 
@@ -87,13 +89,36 @@ export default function TOverview2() {
             </div>
           </div>
 
-          <motion.button onClick={handleRegister}
+          <motion.button 
+            onClick={handleRegister}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 font-poppins py-3 rounded-full tracking-widest font-semibold text-xl shadow-lg hover:shadow-xl transition-shadow"
           >
-            <Link to='/payment'>REGISTER</Link>
+            REGISTER
           </motion.button>
+
+          {showForm && (
+            <div className="mt-12 overflow-hidden">
+              <iframe
+                src={formLink}
+                width="640"
+                height="1014"
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+                className="w-full max-w-4xl mx-auto"
+                style={{
+                  overflow: 'hidden',
+                  scrollbarWidth: 'none', // Firefox
+                  WebkitOverflowScrolling: 'none', // Safari
+                  '&::-webkit-scrollbar': { display: 'none' }, // Chrome, Edge, Safari
+                }}
+              >
+                Loading…
+              </iframe>
+            </div>
+          )}
         </motion.div>
       </div>
     </div>
