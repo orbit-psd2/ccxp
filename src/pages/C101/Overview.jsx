@@ -7,7 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 export default function TOverview2() {
   const [showForm, setShowForm] = useState(false)
 
-  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSfxdmmBV4KZbxvcCfB8uEu1l2-n3nrDPSk8Y1AFSjrPOt1k_A/viewform?embedded=true";
+  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSeq3pM_g3FIYPhQR3WHPThXyqLpO8z0tuAIpMbOnyLK6xKE5Q/viewform?embedded=true";
   
   const handleRegister = () => {
       setShowForm(true)
