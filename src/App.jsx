@@ -61,6 +61,7 @@ import RecommendedEventsWOTV from './pages/WOTV/RecEventsWOTV'
 import CloudConLearnMore from './components/CloudConLearnMore'
 import PulseLearnMore from './components/PulseLearnMore'
 import ImageCarousel from './components/Carousel'
+import TeamPage from './components/Team'
 
 const Layout = ({ children, useEventNavbar = false }) => (
   <>
@@ -112,6 +113,17 @@ const router = createBrowserRouter([
       <>
       <Navbar/>   
       <Events/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/team',
+    element: (
+      <>
+      <Navbar/>   
+      <TeamPage/>
       <Footer/>
       </>
     )

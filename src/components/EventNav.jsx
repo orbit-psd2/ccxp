@@ -48,6 +48,7 @@ export default function EventNavbar() {
             <a  className="text-zinc-800 hover:text-orange-500 uppercase transition-colors font-faculty font-semibold text-[18px]"><Link to='/'>Home</Link></a>
             <a  className="text-zinc-800 hover:text-purple-500  font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
             <a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
+            <a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/team'>Team</Link></a>
           </div>
           
           <div className="md:hidden">
@@ -106,6 +107,7 @@ export default function EventNavbar() {
               <Link to='/' className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Home</Link>
               <Link to='/events' className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Events</Link>
               <Link to='/contact' className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Contact</Link>
+              <Link to='/team' className="text-zinc-800 hover:text-orange-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Team</Link>
             </div>
           </motion.div>
         )}
