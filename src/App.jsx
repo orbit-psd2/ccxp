@@ -119,18 +119,6 @@ const router = createBrowserRouter([
   },
 
   {
-    path: '/team',
-    element: (
-      <>
-      <Navbar/>   
-      <TeamPage/>
-      <Footer/>
-      </>
-    )
-  },
-
-
-  {
     path: '/gdws',
     element: (
       <>
@@ -327,6 +315,21 @@ const router = createBrowserRouter([
       </>
     )
   },
+
+  {/* 
+
+  {
+    path: '/team',
+    element: (
+      <>
+      <Navbar/>   
+      <TeamPage/>
+      <Footer/>
+      </>
+    )
+  },
+
+  */}
 ])
 
 const App = () => {
