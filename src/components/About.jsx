@@ -63,7 +63,7 @@ export default function About() {
                 muted
                 playsInline
               >
-                <source src="/cloudcon.mp4" type="video/mp4" />
+                <source src="/cc-video-main.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
