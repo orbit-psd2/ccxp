@@ -25,9 +25,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link to='/'>Home</Link></a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link to='/events'>Events</Link></a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link to='/contact'>Contact</Link></a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link onClick={() => window.scrollTo(0,0)} to='/'>Home</Link></a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link onClick={() => window.scrollTo(0,0)} to='/events'>Events</Link></a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors"><Link onClick={() => window.scrollTo(0,0)} to='/contact'>Contact</Link></a></li>
             </ul>
           </div>
           <div>
