@@ -1,5 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -111,7 +112,7 @@ const router = createBrowserRouter([
     path: '/events',
     element: (
       <>
-      <Navbar/>   
+      <EventNavbar/>   
       <Events/>
       <Footer/>
       </>
@@ -335,7 +336,7 @@ const router = createBrowserRouter([
 const App = () => {
   return (
 
-    <div className='bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-[#ffe4e6]  to-[#ccfbf1]'>
+    <div className='min-h-screen w-full bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-violet-100 via-pink-400 to-gray-900 bg-[length:400%_400%] animate-gradient'>
       <RouterProvider router={router} />
     </div>
   )

@@ -18,7 +18,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="py-17 overflow-hidden">
+    <section id="about" className="py-17 overflow-hidden mt-[50px]">
       <div className="max-w-7xl mx-auto px-4">
         <motion.h2 
           className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text"
@@ -26,7 +26,7 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          About <span className='uppercase'>CloudCon x Pulse</span>
+          About <span className='uppercase font-audiowide'>CloudCon x Pulse</span>
         </motion.h2>
 
         <motion.div
