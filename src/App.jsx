@@ -101,7 +101,7 @@ const router = createBrowserRouter([
     path: '/contact',
     element: (
       <>
-      <Navbar/>
+      <EventNavbar/>
       <ContactPage/>
       <Footer/>
       </>

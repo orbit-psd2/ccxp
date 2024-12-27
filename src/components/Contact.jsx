@@ -22,12 +22,10 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 py-[100px] px-4 sm:px-6 lg:px-8" style={{
-        background: "radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;"
-      }}>
+    <div className="min-h-screen w-full bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-violet-100 via-pink-400 to-gray-900 bg-[length:400%_400%] animate-gradient mt-[60px] pt-[40px] pb-[40px]">
       <div className="max-w-7xl mx-auto">
         <motion.h1 
-          className="text-4xl font-bold text-center uppercase mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"
+          className="text-5xl max-sm:text-[40px] font-bold text-center uppercase mb-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
