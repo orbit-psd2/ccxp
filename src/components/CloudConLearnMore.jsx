@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img1 from '../images/pcdoc.jpg'
-import img2 from '../images/groupic1.jpg'
+import img2 from '/cclm.jpg'
 import img3 from '../images/groupic2.jpg'
 import img4 from '../images/wotv.jpg'
 import img5 from '../images/winnners.jpg'

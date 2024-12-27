@@ -4,7 +4,7 @@ import img1 from '../images/pcdoc1.jpg'
 import img2 from '../images/faculties.jpg'
 import img3 from '../images/winners2.jpg'
 import img4 from '../images/gob.jpg'
-import img5 from '../images/groupic3.jpg'
+import img5 from '/groupic3.jpg'
 import img6 from '../images/pcdoc2.jpg'
 
 export default function PulseLearnMore() {

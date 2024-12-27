@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import CGP from '../images/PICTURE.jpg'
 
 export default function ChiefGuest() {
   return (

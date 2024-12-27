@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import img1 from '../images/faculties.jpg'
-import img2 from '../images/groupic1.jpg'
+import img2 from '/group2.jpg'
 import img3 from '../images/pcdoc.jpg'
 import img4 from '../images/winnners.jpg'
-import img5 from '../images/pcdoc2.jpg'
-import img6 from '../images/groupic3.jpg'
+import img5 from '/nandha2.jpg'
+import img6 from '/groupic3.jpg'
 import img7 from '../images/gob.jpg'
 
 const images = [

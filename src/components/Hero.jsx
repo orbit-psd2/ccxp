@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Countdown from 'react-countdown';
-import CCXP from '../images/CCXPMAIN.png'
 import { Link } from 'react-router-dom';
 import backgroundVideo from '/hero.mp4';
 
