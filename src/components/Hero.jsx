@@ -123,7 +123,7 @@ export default function Hero() {
           transition={{ delay: 0, type: "spring" }}
           className="flex justify-center cursor-pointer mt-[-15px]"
         >
-          <img src={CCXP} alt="CloudCon x Pulse Logo" width={400} height={400} />
+          <img src= '/ccxpnew.png' alt="CloudCon x Pulse Logo" width={400} height={400} />
         </motion.div>
         
         <motion.h1 
