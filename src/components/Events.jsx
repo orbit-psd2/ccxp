@@ -117,7 +117,7 @@ export default function Events() {
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text uppercase"
         >
           Technical Events
         </motion.h2>
@@ -213,7 +213,7 @@ export default function Events() {
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text uppercase"
+          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
         >
           Non-Technical Events
         </motion.h2>

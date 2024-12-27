@@ -22,26 +22,30 @@ const Timer = () => {
 
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
-      return <span className="text-white text-3xl">Event has started!</span>;
+      return <span className="text-white text-4xl font-bold">Event has started!</span>;
     } else {
       return (
         <div className="flex flex-col items-center">
-          <div className="flex gap-4">
-            <AnimatedDigit value={days}  />
+          {/* Timer boxes */}
+          <div className="flex gap-9">
+            <AnimatedDigit value={days} />
             <AnimatedDigit value={hours} />
             <AnimatedDigit value={minutes} />
             <AnimatedDigit value={seconds} />
           </div>
-          <div className="flex text-gray-200 mt-2 text-sm gap-6 uppercase">
-            <span className="w-16 text-center">Days</span>
-            <span className="w-16 text-center">Hours</span>
-            <span className="w-16 text-center">Minutes</span>
-            <span className="w-16 text-center">Seconds</span>
+
+          {/* Labels */}
+          <div className="flex text-gray-200 mt-4 text-base gap-8 uppercase font-semibold">
+            <span className="w-20 text-center">Days</span>
+            <span className="w-20 text-center">Hours</span>
+            <span className="w-20 text-center">Minutes</span>
+            <span className="w-20 text-center">Seconds</span>
           </div>
         </div>
       );
     }
   };
+
 
   return (
     <motion.div
