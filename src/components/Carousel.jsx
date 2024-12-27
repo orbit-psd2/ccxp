@@ -7,7 +7,7 @@ import img2 from '/group2.jpg'
 import img3 from '../images/pcdoc.jpg'
 import img4 from '../images/winnners.jpg'
 import img5 from '/nandha2.jpg'
-import img6 from '/groupic3.jpg'
+import img6 from '/cloudws.jpg'
 import img7 from '../images/gob.jpg'
 
 const images = [
