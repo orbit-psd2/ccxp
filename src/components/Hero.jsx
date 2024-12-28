@@ -27,7 +27,7 @@ const Timer = () => {
       return (
         <div className="flex flex-col items-center">
           {/* Timer boxes */}
-          <div className="flex gap-9">
+          <div className="flex gap-9 max-sm:gap-5">
             <AnimatedDigit value={days} />
             <AnimatedDigit value={hours} />
             <AnimatedDigit value={minutes} />
@@ -35,11 +35,11 @@ const Timer = () => {
           </div>
 
           {/* Labels */}
-          <div className="flex text-gray-200 mt-4 text-base gap-8 uppercase font-semibold">
-            <span className="w-20 text-center">Days</span>
-            <span className="w-20 text-center">Hours</span>
-            <span className="w-20 text-center">Minutes</span>
-            <span className="w-20 text-center">Seconds</span>
+          <div className="flex text-gray-200 mt-4 gap-8 max-sm:gap-3 text-[15px] uppercase font-semibold">
+            <span className="w-20 max-sm:w-17 text-center">Days</span>
+            <span className="w-20 max-sm:w-17 text-center">Hours</span>
+            <span className="w-20 max-sm:w-17 text-center">Minutes</span>
+            <span className="w-20 max-sm:w-17 text-center">Seconds</span>
           </div>
         </div>
       );
@@ -126,7 +126,7 @@ export default function Hero() {
           transition={{ delay: 0, type: "spring" }}
           className="flex justify-center cursor-pointer mt-[-15px]"
         >
-          <img src= '/ccxpnew.png' alt="CloudCon x Pulse Logo" width={400} height={400} />
+          <img src= '/ccxplogo3.png' alt="CloudCon x Pulse Logo" width={500} height={500} />
         </motion.div>
         
         <motion.h1 
