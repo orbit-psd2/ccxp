@@ -124,9 +124,9 @@ export default function Hero() {
           animate={{ scale: 1 }}
           whileHover={{scale: 1.1}}
           transition={{ delay: 0, type: "spring" }}
-          className="flex justify-center cursor-pointer mt-[-15px]"
+          className="flex justify-center cursor-pointer mt-[-18px]"
         >
-          <img src= '/realatlast.png' alt="CloudCon x Pulse Logo" width={500} height={500} />
+          <img src= '/glow2.png' alt="CloudCon x Pulse Logo" width={550} height={550} />
         </motion.div>
         
         <motion.h1 
