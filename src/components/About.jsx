@@ -26,7 +26,7 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          About <span className='uppercase font-audiowide'>CloudCon x Pulse</span>
+          ABOUT <span className='uppercase font-audiowide tracking-wider nav-text'>CloudCon x Pulse</span>
         </motion.h2>
 
         <motion.div

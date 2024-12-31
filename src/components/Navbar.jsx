@@ -33,7 +33,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-        scrolled ? 'bg-white shadow-md' : 'bg-transparent'
+        scrolled ? 'bg-gray-50 shadow-md' : 'bg-transparent'
       }`}
     >
       <div className={`max-w-7xl mx-auto px-4 py-4 ${
@@ -41,7 +41,7 @@ export default function Navbar() {
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="md:text-[22px] font-bold font-audiowide nav-text text-zinc-800 max-sm:text-[17px] max-md:text-[22px] uppercase"><Link to='/'>CloudCon X Pulse'25</Link></span>
+            <span className="md:text-[22px] font-bold font-audiowide tracking-widest nav-text text-zinc-800 max-sm:text-[17px] max-md:text-[22px] uppercase"><Link to='/'>CloudCon X Pulse'25</Link></span>
           </div>
           
           <div className="hidden md:flex items-center space-x-10">
