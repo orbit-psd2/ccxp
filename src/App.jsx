@@ -336,7 +336,7 @@ const router = createBrowserRouter([
 const App = () => {
   return (
 
-    <div className='min-h-screen w-full bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-violet-100 via-pink-400 to-gray-900 bg-[length:400%_400%] animate-gradient'>
+    <div className='min-h-screen w-full bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-violet-100 via-pink-500 to-zinc-900 bg-[length:400%_400%] animate-gradient'>
       <RouterProvider router={router} />
     </div>
   )

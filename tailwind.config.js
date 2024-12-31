@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       animation: {
-        gradient: "gradient 8s linear infinite", // Adjust timing as needed
+        gradient: "gradient 4s ease infinite",
       },
       keyframes: {
         gradient: {
-          "0%": { "background-position": "0% 0%" },
-          "50%": { "background-position": "100% 100%" },
-          "100%": { "background-position": "0% 0%" },
+          "0%": { "background-position": "0% 50%" },
+          "50%": { "background-position": "100% 50%" },
+          "100%": { "background-position": "0% 50%" },
         },
       },
       fontFamily:{
