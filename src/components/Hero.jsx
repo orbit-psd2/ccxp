@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useSpring, animated, config } from 'react-spring';
 import Countdown from 'react-countdown';
 import { Link } from 'react-router-dom';
 import backgroundVideo from '/hero.mp4';
-
 
 const AnimatedDigit = ({ value }) => (
   <motion.div
@@ -26,15 +26,12 @@ const Timer = () => {
     } else {
       return (
         <div className="flex flex-col items-center">
-          {/* Timer boxes */}
           <div className="flex gap-9 max-sm:gap-5">
             <AnimatedDigit value={days} />
             <AnimatedDigit value={hours} />
             <AnimatedDigit value={minutes} />
             <AnimatedDigit value={seconds} />
           </div>
-
-          {/* Labels */}
           <div className="flex text-gray-200 mt-4 gap-8 max-sm:gap-3 text-[15px] uppercase font-semibold">
             <span className="w-20 max-sm:w-17 text-center">Days</span>
             <span className="w-20 max-sm:w-17 text-center">Hours</span>
@@ -45,7 +42,6 @@ const Timer = () => {
       );
     }
   };
-
 
   return (
     <motion.div
@@ -58,12 +54,57 @@ const Timer = () => {
   );
 };
 
+const AnimatedLogo = () => {
+  const { scale, opacity, filter } = useSpring({
+    from: { scale: 0, opacity: 0, filter: 'blur(20px) brightness(0)' },
+    to: async (next) => {
+      await next({ scale: 1.1, opacity: 1, filter: 'blur(0px) brightness(1)' });
+      await next({ scale: 1 });
+    },
+    config: { ...config.molasses, duration: 2000 },
+  });
+
+  const glowSpring = useSpring({
+    from: { opacity: 0 },
+    to: async (next) => {
+      while (1) {
+        await next({ opacity: 0.7 });
+        await next({ opacity: 0.3 });
+      }
+    },
+    config: { duration: 1500 },
+  });
+
+  return (
+    <div className="relative w-[550px] h-[550px] max-w-full">
+      <animated.img
+        src="/glow2.png"
+        alt="CloudCon x Pulse Logo"
+        className="w-full h-full object-contain"
+        style={{
+          scale,
+          opacity,
+          filter,
+        }}
+      />
+      <animated.div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: 'radial-gradient(circle, rgba(255,165,0,0.3) 0%, rgba(255,215,0,0.2) 50%, transparent 70%)',
+          opacity: glowSpring.opacity,
+          mixBlendMode: 'overlay',
+        }}
+      />
+    </div>
+  );
+};
+
 export default function Hero() {
   const videoRef = useRef(null);
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 0.75; // Slow down the video
+      videoRef.current.playbackRate = 0.75;
     }
   }, []);
 
@@ -80,7 +121,6 @@ export default function Hero() {
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-50" />
     
-
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -119,15 +159,9 @@ export default function Hero() {
           </motion.p>
         </motion.div>
 
-        <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          whileHover={{scale: 1.1}}
-          transition={{ delay: 0, type: "spring" }}
-          className="flex justify-center cursor-pointer mt-[-18px]"
-        >
-          <img src= '/glow2.png' alt="CloudCon x Pulse Logo" width={550} height={550} />
-        </motion.div>
+        <div className="flex justify-center cursor-pointer mt-[-18px]">
+          <AnimatedLogo />
+        </div>
         
         <motion.h1 
           className="text-6xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-300 mb-[60px]"
