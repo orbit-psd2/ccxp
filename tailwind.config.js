@@ -24,6 +24,7 @@ export default {
         titillium: ["Titillum Web", "sans-serif"],
         faculty: ["Faculty Glyphic", "sans-serif"],
         right: ["Righteous", "sans-serif"],
+        exo2: ["Exo 2", "sans-serif"],
         
       }
     },
