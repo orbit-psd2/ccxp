@@ -12,9 +12,9 @@ export default function NTOverview4() {
   return (
     <div className="relative min-h-[80vh] flex items-center">
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover object-cover bg-center"
         style={{
-          backgroundImage: 'url("https://images.pexels.com/photos/33779/hand-microphone-mic-hold.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
+          backgroundImage: 'url("https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
@@ -26,7 +26,7 @@ export default function NTOverview4() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-[60px] uppercase">
+          <h1 className="text-4xl max-sm:text-2xl md:text-5xl font-bold mb-[60px] uppercase">
           Open Mic - Express your own unique skills and talents
           </h1>
 
