@@ -82,7 +82,7 @@ export default function Sponsors() {
             whileTap={{ scale: 0.95 }}
             className="inline-block uppercase bg-gradient-to-r from-orange-500 to-purple-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
-            <Link to='/contact'>Become a Sponsor</Link>
+            <Link onClick={() => window.scrollTo(0,0)} to='/contact'>Become a Sponsor</Link>
           </motion.a>
         </motion.div>
       </div>
