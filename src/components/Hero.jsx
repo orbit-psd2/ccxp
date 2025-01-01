@@ -61,7 +61,7 @@ const AnimatedLogo = () => {
       await next({ scale: 1.1, opacity: 1, filter: 'blur(0px) brightness(1)' });
       await next({ scale: 1 });
     },
-    config: { ...config.molasses, duration: 1500 },
+    config: { ...config.molasses, duration: 1000 },
   });
 
   const glowSpring = useSpring({
@@ -72,7 +72,7 @@ const AnimatedLogo = () => {
         await next({ opacity: 0.3 });
       }
     },
-    config: { duration: 1500 },
+    config: { duration: 1000 },
   });
 
   return (

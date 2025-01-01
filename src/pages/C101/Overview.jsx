@@ -31,7 +31,7 @@ export default function TOverview2() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-[60px] uppercase">
+          <h1 className="text-4xl max-sm:text-2xl md:text-5xl font-bold mb-[60px] max-sm:mb-[50px] uppercase">
           Cloud 101 (Workshop on Cloud Computing)
           </h1>
 

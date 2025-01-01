@@ -26,7 +26,7 @@ export default function CloudOverview() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-[60px] uppercase">
+          <h1 className="text-4xl max-sm:text-2xl md:text-5xl font-bold mb-[60px] max-sm:mb-[50px] uppercase">
           Cloudathon: The Ultimate Cloud Computing Hackathon
           </h1>
 
