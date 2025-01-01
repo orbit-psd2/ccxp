@@ -32,7 +32,7 @@ export default function NTOverview7() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-[60px] uppercase">
+          <h1 className="text-4xl max-sm:text-2xl max-sm:mb-[50px] md:text-5xl font-bold mb-[60px] uppercase">
             Nostalgia - To Bring your Childhood Back
           </h1>
 
