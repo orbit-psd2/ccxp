@@ -46,7 +46,11 @@ export default function Events() {
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 tracking-wider bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+          style={{
+            WebkitTextStroke: '2px black', // Stroke width and color for WebKit browsers
+            textStroke: '2px black',      // Fallback for other browsers
+          }}
         >
           Hackathons
         </motion.h2>
@@ -117,7 +121,11 @@ export default function Events() {
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text uppercase"
+          className="text-4xl md:text-5xl font-titillium font-bold text-center tracking-wider mb-16 bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text uppercase"
+          style={{
+            WebkitTextStroke: '2px black', // Stroke width and color for WebKit browsers
+            textStroke: '2px black',      // Fallback for other browsers
+          }}
         >
           Technical Events
         </motion.h2>
@@ -213,7 +221,11 @@ export default function Events() {
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-titillium font-bold text-center mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+          className="text-4xl md:text-5xl font-titillium font-bold tracking-wider text-center mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+          style={{
+            WebkitTextStroke: '2px black', // Stroke width and color for WebKit browsers
+            textStroke: '2px black',      // Fallback for other browsers
+          }}
         >
           Non-Technical Events
         </motion.h2>

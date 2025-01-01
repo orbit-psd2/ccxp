@@ -33,7 +33,7 @@ export default function EventNavbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-colors text-zinc-800 duration-300 ${
-        scrolled ? 'bg-white shadow-md' : 'bg-white'
+        scrolled ? 'bg-white shadow-md' : 'bg-transparent'
       }`}
     >
       <div className={`max-w-7xl mx-auto px-4 py-4 ${
@@ -45,10 +45,10 @@ export default function EventNavbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a  className="text-zinc-800 hover:text-orange-500 uppercase transition-colors font-faculty font-semibold text-[18px]"><Link to='/'>Home</Link></a>
-            <a  className="text-zinc-800 hover:text-purple-500  font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
-            <a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
-            {/*<a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase transition-colors font-semibold text-[18px]"><Link to='/team'>Team</Link></a>*/}
+            <a  className="text-zinc-800 hover:text-orange-500 uppercase duration-300 font-faculty font-semibold text-[18px]"><Link to='/'>Home</Link></a>
+            <a  className="text-zinc-800 hover:text-purple-500  font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
+            <a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
+            {/*<a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/team'>Team</Link></a>*/}
           </div>
           
           <div className="md:hidden">
