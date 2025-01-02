@@ -58,11 +58,15 @@ export default function ManiaOverview() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Karthik - 8072843147
+                    Karthik - 80728 43147
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Chandrasekar - 7092201730
+                    Chandrasekar - 70922 01730
+                  </li>
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
+                    Aamir Khan - 73977 11345
                   </li>
                 </ul>
               </div>

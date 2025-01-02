@@ -58,11 +58,11 @@ export default function NTOverview6() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Aamir Abdullah khan - 7397711345
+                    Jason J Samuels - 78010 21178
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Jason J Samuels - 78010 21178
+                     J Swethaa - 87780 00392
                   </li>
                 </ul>
               </div>
