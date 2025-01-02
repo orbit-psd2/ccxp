@@ -13,6 +13,7 @@ import Cloudathon from '../images/cloudathon.png'
 import DesginDash from '../images/dd.png'
 import FaceOff from '../images/fo.png'
 import WOTV from '../images/wotv.png'
+import { MoveRight } from 'lucide-react';
 
 export default function Events() {
   const containerVariants = {
@@ -61,7 +62,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={GameMania}
-                alt="A DAY WITH CLOUD-WORKSHOP"
+                alt="GAME MANIA HACKATHON"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
             </div>
@@ -75,10 +76,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -89,7 +90,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={Cloudathon} 
-                alt="CLOUD INNOVATORS"
+                alt="CLOUDCON WORKSHOP"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
             </div>
@@ -103,10 +104,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -131,7 +132,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={GameDevWorkshop} 
-                alt="A DAY WITH CLOUD-WORKSHOP"
+                alt="GAME DEV WORKSHOP"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
             </div>
@@ -145,10 +146,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -158,7 +159,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={C101} 
-                alt="CLOUD INNOVATORS"
+                alt="CLOUD 101 WORKSHOP"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
             </div>
@@ -172,10 +173,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -185,7 +186,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={CodeComputing} 
-                alt="GAME DEV CHALLENGE"
+                alt="CODE COMPUTING COMPEITION"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
@@ -199,10 +200,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -227,7 +228,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={DesginDash} 
-                alt="GAMING TOURNAMENT"
+                alt="DESIGN DASH COMPETITION"
                 className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
             </div>
@@ -241,10 +242,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -254,7 +255,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={FaceOff} 
-                alt="TECH TREASURE HUNT"
+                alt="FACE OFF EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
             </div>
@@ -268,10 +269,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -281,7 +282,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={WOTV} 
-                alt="DIGITAL ART SHOWCASE"
+                alt="WHAT'S ON TV EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
@@ -295,10 +296,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -308,7 +309,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={OpenMic} 
-                alt="TECH QUIZ"
+                alt="OPEN MIC EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
@@ -323,10 +324,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -336,7 +337,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={GameOnBidz} 
-                alt="TECH QUIZ"
+                alt="GAME ON BIDZ EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
@@ -350,10 +351,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -363,7 +364,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={Connectionz}
-                alt="TECH QUIZ"
+                alt="CONNECTIONZ EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
@@ -377,10 +378,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3 group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
@@ -390,7 +391,7 @@ export default function Events() {
             <div className="h-64 overflow-hidden">
               <img 
                 src={Nostalgia} 
-                alt="TECH QUIZ"
+                alt="NOSTALGIA EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
             </div>
@@ -404,10 +405,10 @@ export default function Events() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-black text-white px-6 py-2 rounded-full font-semibold inline-flex items-center group"
+                className="bg-white text-black border-[3px] hover:bg-black hover:text-white duration-300 border-black px-6 py-[10px] rounded-full font-semibold inline-flex items-center group"
               >
                 VIEW
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                <MoveRight size={20} className="ml-3  group-hover:translate-x-2 transition-transform" />
               </motion.button>
               </Link>
             </div>
