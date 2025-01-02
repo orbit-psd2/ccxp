@@ -63,6 +63,7 @@ import CloudConLearnMore from './components/CloudConLearnMore'
 import PulseLearnMore from './components/PulseLearnMore'
 import ImageCarousel from './components/Carousel'
 import TeamPage from './components/Team'
+import EventSpecificNavbar from './components/EventSpecificNav'
 
 const Layout = ({ children, useEventNavbar = false }) => (
   <>
@@ -123,7 +124,7 @@ const router = createBrowserRouter([
     path: '/gdws',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <TOverview1/>
       <TDescription1/>
       <TRules1/>
@@ -137,7 +138,7 @@ const router = createBrowserRouter([
     path: '/c101',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <TOverview2/>
       <TDescription2/>
       <TRules2/>
@@ -151,7 +152,7 @@ const router = createBrowserRouter([
     path: '/cccp',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <TOverview3/>
       <TDescription3/>
       <TRules3/>
@@ -165,7 +166,7 @@ const router = createBrowserRouter([
     path: '/dd',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <NTOverview1/>
       <NTDescription1/>
       <NTRules1/>
@@ -179,7 +180,7 @@ const router = createBrowserRouter([
     path: '/fo',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <NTOverview2/>
       <NTDescription2/>
       <NTRules2/>
@@ -193,7 +194,7 @@ const router = createBrowserRouter([
     path: '/wotv',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <NTOverview3/>
       <NTDescription3/>
       <NTRules3/>
@@ -207,7 +208,7 @@ const router = createBrowserRouter([
     path: '/om',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <NTOverview4/>
       <NTDescription4/>
       <NTRules4/>
@@ -221,7 +222,7 @@ const router = createBrowserRouter([
     path: '/gob',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <NTOverview5/>
       <NTDescription5/>
       <NTRules5/>
@@ -235,7 +236,7 @@ const router = createBrowserRouter([
     path: '/cz',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <NTOverview6/>
       <NTDescription6/>
       <NTRules6/>
@@ -249,7 +250,7 @@ const router = createBrowserRouter([
     path: '/nostalgia',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <NTOverview7/>
       <NTDescription7/>
       <NTRules7/>
@@ -263,7 +264,7 @@ const router = createBrowserRouter([
     path: '/hackathon1',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <ManiaOverview/>
       <ManiaDesc/>
       <ManiaRules/>
@@ -277,7 +278,7 @@ const router = createBrowserRouter([
     path: '/hackathon2',
     element: (
       <>
-      <EventNavbar/>
+      <EventSpecificNavbar/>
       <CloudOverview/>
       <CloudDesc/>
       <CloudRules/>
