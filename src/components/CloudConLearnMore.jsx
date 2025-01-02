@@ -9,7 +9,7 @@ import img6 from '../images/mlcp.jpg'
 
 export default function CloudConLearnMore() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-[40px] pb-[40px] mt-[50px] px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-[40px] pb-[40px] pt-[100px] px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-indigo-800 mb-8">Learn More About <span className='font-audiowide tracking-wider uppercase'>CloudCon</span></h1>
         

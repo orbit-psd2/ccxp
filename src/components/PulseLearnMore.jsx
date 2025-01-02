@@ -4,12 +4,12 @@ import img1 from '../images/pcdoc1.jpg'
 import img2 from '../images/faculties.jpg'
 import img3 from '../images/winners2.jpg'
 import img4 from '../images/gob.jpg'
-import img5 from '/groupic3.jpg'
+import img5 from '/group2.jpg'
 import img6 from '../images/pcdoc2.jpg'
 
 export default function PulseLearnMore() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 py-[40px] pb-[50px] mt-[50px] px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 py-[40px] pb-[50px] pt-[100px] px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-purple-800 mb-8">Learn More About <span className='font-audiowide tracking-wider uppercase'>Pulse</span></h1>
         
