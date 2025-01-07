@@ -34,7 +34,7 @@ export default function NTOverview1() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Calendar className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">31-01-2025</span>
+                <span className="text-2xl font-pridi">30-01-2025</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />

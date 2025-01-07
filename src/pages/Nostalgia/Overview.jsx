@@ -49,7 +49,7 @@ export default function NTOverview7() {
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">10:00 AM</span>
+                <span className="text-2xl font-pridi">10:00 AM - 3:40PM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl font-medium mt-5 font-pridi">
