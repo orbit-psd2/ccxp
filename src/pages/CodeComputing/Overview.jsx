@@ -59,11 +59,11 @@ export default function TOverview3() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    M Venkata Sai Vinay - 9677082555
+                    Sohan -  86398 37136
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    K Dakshitha - 9154033459
+                    Roopesh -  97044 05788
                   </li>
                 </ul>
               </div>
@@ -74,8 +74,8 @@ export default function TOverview3() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr.S.Deepa</li>
-                  <li>Ms.M.Snehapriya</li>
+                  <li>Dr  S Deepa ,Asst. Prof/CSE</li>
+                  <li>Mr M Snehapriya ,Asst. Prof/CSE</li>
                 </ul>
               </div>
             </div>

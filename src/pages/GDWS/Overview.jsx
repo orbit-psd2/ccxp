@@ -36,15 +36,15 @@ export default function TOverview1() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Calendar className="w-7 h-7 text-orange-400" />
-                <span className="text-2xl font-pridi">30-01-2025</span>
+                <span className="text-2xl font-pridi">31-01-2025</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-orange-400" />
-                <span className="text-2xl font-pridi">MLCP LAB 3</span>
+                <span className="text-2xl font-pridi">MLCP LAB 2</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-orange-400" />
-                <span className="text-2xl font-pridi">10:00 AM</span>
+                <span className="text-2xl font-pridi">9:00 AM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl font-medium font-pridi mt-5">Registration Fee: ₹ 50/-</span>
@@ -65,6 +65,10 @@ export default function TOverview1() {
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-orange-400" />
                     Rajeev Suri Anand - 80561 51489
+                  </li>
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-orange-400" />
+                    Nakka Vinayak Sai - 63822 34979
                   </li>
                 </ul>
               </div>

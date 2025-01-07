@@ -69,10 +69,6 @@ export default function TOverview2() {
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
                     Ananya Nair - 8939974417
                   </li>
-                  <li className="flex items-center font-pridi text-xl">
-                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Meera Eldho - 8921831627
-                  </li>
                 </ul>
               </div>
 
@@ -82,8 +78,8 @@ export default function TOverview2() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Mr.A.Thiruneelakandan</li>
-                  <li>Mr.K.Rajesh </li>
+                  <li>Mr A Thiruneelakandan , Asst. Prof/CSE</li>
+                  <li>Ms R Sujeetha,Asst. Prof/CSE </li>
                 </ul>
               </div>
             </div>
@@ -110,9 +106,9 @@ export default function TOverview2() {
                 className="w-full max-w-4xl mx-auto"
                 style={{
                   overflow: 'hidden',
-                  scrollbarWidth: 'none', // Firefox
-                  WebkitOverflowScrolling: 'none', // Safari
-                  '&::-webkit-scrollbar': { display: 'none' }, // Chrome, Edge, Safari
+                  scrollbarWidth: 'none',
+                  WebkitOverflowScrolling: 'none', 
+                  '&::-webkit-scrollbar': { display: 'none' }, 
                 }}
               >
                 Loading…

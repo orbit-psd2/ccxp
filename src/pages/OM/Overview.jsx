@@ -38,7 +38,7 @@ export default function NTOverview4() {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">GALLRY HALL 3</span>
+                <span className="text-2xl font-pridi">TRP</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
@@ -73,8 +73,8 @@ export default function NTOverview4() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Mr.A.Madhu</li>
-                  <li>Ms.Harini B</li>
+                  <li>Mr A Madhu,Asst. Prof/CSE</li>
+                  <li>Ms B Harini ,Asst. Prof/CSE</li>
                 </ul>
               </div>
             </div>
