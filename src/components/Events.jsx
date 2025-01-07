@@ -41,7 +41,7 @@ export default function Events() {
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-exo2 font-bold text-center mb-16 tracking-wider bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+          className="text-4xl md:text-5xl font-exo2 font-bold text-center mb-16 tracking-wider bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text uppercase"
         >
           Hackathons
         </motion.h2>

@@ -3,14 +3,12 @@ import { AlertCircle, Check } from 'lucide-react';
 
 export default function CloudRules() {
   const rules = [
-    "Registration is mandatory for all participants",
-    "Participants must bring their own laptops with working internet connection",
-    "Basic knowledge of cloud computing is required",
-    "The quiz will be conducted in three rounds: Preliminary, Semi-Final, and Final",
-    "Use of external resources during the quiz is strictly prohibited",
-    "Participants must be present 15 minutes before the start of each round",
-    "The decision of the quiz master and judges will be final",
-    "Prizes will be awarded to the top 3 performers of the final round"
+    "Participants must bring their own laptops, chargers, and any necessary hardware or software tools",
+    "All projects must be built during the hackathon timeframe unless specified otherwise",
+    "Teams must adhere to the themes and problem statements provided",
+    "Disruptive behavior or unsportsmanlike conduct will lead to disqualification",
+    "Ensure your development environment is set up before the hackathon begins to avoid delay",
+    "Decisions made by judges and organizers are final and binding",
   ];
 
 
