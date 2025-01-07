@@ -38,11 +38,11 @@ export default function CloudOverview() {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">MLCP LAB 3</span>
+                <span className="text-2xl font-pridi">MLCP LAB 1</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">10:00 AM</span>
+                <span className="text-2xl font-pridi">9:00 AM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl font-medium mt-5 font-pridi">FREE REGISTRATION</span>
@@ -58,15 +58,11 @@ export default function CloudOverview() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Kalpitha - 7418692714
+                    Adhi Vinay - 96770 82555
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Venkatesh - 8056102004
-                  </li>
-                  <li className="flex items-center font-pridi text-xl">
-                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Vamsi - 7010685726
+                    K Dakshitha -  91540 33459
                   </li>
                 </ul>
               </div>

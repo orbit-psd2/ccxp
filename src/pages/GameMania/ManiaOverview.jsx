@@ -38,7 +38,7 @@ export default function ManiaOverview() {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">MLCP LAB 3</span>
+                <span className="text-2xl font-pridi">MLCP LAB 2</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />

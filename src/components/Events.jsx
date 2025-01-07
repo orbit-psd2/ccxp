@@ -174,7 +174,7 @@ export default function Events() {
             <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/CCP.png'
-                alt="CODE COMPUTING COMPEITION"
+                alt="CODE COMPUTING COMPETITION"
                 className="w-full h-full object-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
@@ -196,28 +196,13 @@ export default function Events() {
               </Link>
             </div>
           </motion.div>
-        </motion.div>
 
-        {/* Non-Technical Events */}
-        <motion.h2 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-exo2 font-bold tracking-wider text-center mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
-        >
-          Non-Technical Events
-        </motion.h2>
-        <motion.div 
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
-        >
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
-                src='/DDP.png' 
-                alt="DESIGN DASH COMPETITION"
-                className="w-full h-full object-contain transform hover:scale-105 cursor-pointer transition-transform duration-500"
+                src='/DDP.png'
+                alt="DESGIN DASH COMPEITION"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -238,6 +223,26 @@ export default function Events() {
               </Link>
             </div>
           </motion.div>
+
+          
+        </motion.div>
+
+        {/* Non-Technical Events */}
+        <motion.h2 
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-4xl md:text-5xl font-exo2 font-bold tracking-wider text-center mb-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text uppercase"
+        >
+          Non-Technical Events
+        </motion.h2>
+
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8"
+        >
+          
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-auto max-h-[500px] overflow-hidden">
