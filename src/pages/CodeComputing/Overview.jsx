@@ -74,8 +74,8 @@ export default function TOverview3() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr.Gangadevei G</li>
-                  <li>Ms.Chandrakala S</li>
+                  <li>Dr.S.Deepa</li>
+                  <li>Ms.M.Snehapriya</li>
                 </ul>
               </div>
             </div>
