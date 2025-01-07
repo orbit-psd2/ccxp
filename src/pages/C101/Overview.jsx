@@ -5,12 +5,11 @@ import { Link, useNavigate } from 'react-router-dom';
 
 
 export default function TOverview2() {
-  const [showForm, setShowForm] = useState(false)
 
-  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSeq3pM_g3FIYPhQR3WHPThXyqLpO8z0tuAIpMbOnyLK6xKE5Q/viewform?embedded=true";
+  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSeq3pM_g3FIYPhQR3WHPThXyqLpO8z0tuAIpMbOnyLK6xKE5Q/viewform";
   
   const handleRegister = () => {
-      setShowForm(true)
+      window.open(formLink, '_blank');
     };
   
 
@@ -94,27 +93,6 @@ export default function TOverview2() {
             REGISTER
           </motion.button>
 
-          {showForm && (
-            <div className="mt-12 overflow-hidden">
-              <iframe
-                src={formLink}
-                width="640"
-                height="1014"
-                frameBorder="0"
-                marginHeight="0"
-                marginWidth="0"
-                className="w-full max-w-4xl mx-auto"
-                style={{
-                  overflow: 'hidden',
-                  scrollbarWidth: 'none',
-                  WebkitOverflowScrolling: 'none', 
-                  '&::-webkit-scrollbar': { display: 'none' }, 
-                }}
-              >
-                Loading…
-              </iframe>
-            </div>
-          )}
         </motion.div>
       </div>
     </div>

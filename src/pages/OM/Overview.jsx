@@ -3,11 +3,10 @@ import { Calendar, Clock, MapPin, Phone, User } from 'lucide-react';
 import { useState } from 'react';
 
 export default function NTOverview4() {
-  const [showForm , setShowForm] = useState(false)
 
-  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSe2EnHhzEnSu2xrnxcdCiBtT6B92wO2NhRtltr6mmHMJKd_wA/viewform?embedded=true";
+  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSe2EnHhzEnSu2xrnxcdCiBtT6B92wO2NhRtltr6mmHMJKd_wA/viewform";
   const handleRegister = () => {
-    setShowForm(true)
+    window.open(formLink, '_blank');
   };
   return (
     <div className="relative min-h-[80vh] flex items-center">
@@ -88,27 +87,6 @@ export default function NTOverview4() {
             REGISTER
           </motion.button>
 
-          {showForm && (
-            <div className="mt-12 overflow-hidden">
-              <iframe
-                src={formLink}
-                width="640"
-                height="1014"
-                frameBorder="0"
-                marginHeight="0"
-                marginWidth="0"
-                className="w-full max-w-4xl mx-auto"
-                style={{
-                  overflow: 'hidden',
-                  scrollbarWidth: 'none', // Firefox
-                  WebkitOverflowScrolling: 'none', // Safari
-                  '&::-webkit-scrollbar': { display: 'none' }, // Chrome, Edge, Safari
-                }}
-              >
-                Loading…
-              </iframe>
-            </div>
-          )}
         </motion.div>
       </div>
     </div>

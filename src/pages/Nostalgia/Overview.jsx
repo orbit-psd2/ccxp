@@ -3,13 +3,12 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, MapPin, Phone, User } from 'lucide-react';
 
 export default function NTOverview7() {
-  const [showForm, setShowForm] = useState(false); // State to toggle form visibility
 
   const formLink =
-    "https://docs.google.com/forms/d/e/1FAIpQLSf54vqulPcJ8M1mI6vG3Cf7rZLnq3o3LC8Ni3mqsNDIRGDlfQ/viewform?embedded=true";
+    "https://docs.google.com/forms/d/e/1FAIpQLSf54vqulPcJ8M1mI6vG3Cf7rZLnq3o3LC8Ni3mqsNDIRGDlfQ/viewform";
 
   const handleRegister = () => {
-    setShowForm(true); // Show the form when the button is clicked
+     window.open(formLink, '_blank');
   };
 
   return (
@@ -99,29 +98,6 @@ export default function NTOverview7() {
           >
             REGISTER
           </motion.button>
-
-          {/* Google Form Section */}
-          {showForm && (
-            <div className="mt-12">
-              <iframe
-                src={formLink}
-                width="640"
-                height="1014"
-                frameBorder="0"
-                marginHeight="0"
-                marginWidth="0"
-                className="w-full max-w-4xl mx-auto"
-                style={{
-                  overflow: 'hidden',
-                  scrollbarWidth: 'none', // Firefox
-                  WebkitOverflowScrolling: 'none', // Safari
-                  '&::-webkit-scrollbar': { display: 'none' }, // Chrome, Edge, Safari
-                }}
-              >
-                Loading…
-              </iframe>
-            </div>
-          )}
         </motion.div>
       </div>
     </div>
