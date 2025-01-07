@@ -47,11 +47,11 @@ export default function Events() {
         >
           {/*HACKATHON 1*/}  
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/GMP.png'
                 alt="GAME MANIA HACKATHON"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-500 cursor-pointer"
               />
             </div>
             <div className="p-6">
@@ -75,11 +75,11 @@ export default function Events() {
 
           {/*HACKATHON 2*/}
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/CTHONP.png' 
                 alt="CLOUDCON WORKSHOP"
-                className="w-full h-full object-fill transform hover:scale-110 transition-transform duration-500 cursor-pointer"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-500 cursor-pointer"
               />
             </div>
             <div className="p-6">
@@ -117,11 +117,11 @@ export default function Events() {
           className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20"
         >
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/GDWSP.png' 
                 alt="GAME DEV WORKSHOP"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-500 cursor-pointer"
               />
             </div>
             <div className="p-6">
@@ -144,11 +144,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/C101P.png'
                 alt="CLOUD 101 WORKSHOP"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform duration-500 cursor-pointer"
               />
             </div>
             <div className="p-6">
@@ -171,11 +171,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/CCP.png'
                 alt="CODE COMPUTING COMPEITION"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -213,11 +213,11 @@ export default function Events() {
           className="grid grid-cols-1 md:grid-cols-2 gap-8"
         >
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/DDP.png' 
                 alt="DESIGN DASH COMPETITION"
-                className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
+                className="w-full h-full object-contain transform hover:scale-105 cursor-pointer transition-transform duration-500"
               />
             </div>
             <div className="p-6">
@@ -240,11 +240,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/FOP.png'
                 alt="FACE OFF EVENT"
-                className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
+                className="w-full h-full object-contain transform hover:scale-105 cursor-pointer transition-transform duration-500"
               />
             </div>
             <div className="p-6">
@@ -267,11 +267,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/WOTVP.png' 
                 alt="WHAT'S ON TV EVENT"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
+                className="w-full h-fullobject-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -294,11 +294,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/OMP.png' 
                 alt="OPEN MIC EVENT"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -322,11 +322,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/GOBP.png'
                 alt="GAME ON BIDZ EVENT"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -349,11 +349,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/CZZP.png'
                 alt="CONNECTIONZ EVENT"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
@@ -376,11 +376,11 @@ export default function Events() {
           </motion.div>
 
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 overflow-hidden">
+            <div className="h-auto max-h-[500px] overflow-hidden">
               <img 
                 src='/NostalgiaP.png'
                 alt="NOSTALGIA EVENT"
-                className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
+                className="w-full h-full object-contain transform hover:scale-105 transition-transform cursor-pointer duration-500"
               />
             </div>
             <div className="p-6">
