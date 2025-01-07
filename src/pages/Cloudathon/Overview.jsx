@@ -73,10 +73,10 @@ export default function CloudOverview() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr.Manju</li>
-                  <li>Mr.A.Madhu</li>
-                  <li>Mr.K.Rajesh</li>
-                  <li>Mr.Sachin Aditya</li>
+                  <li>Mr.A.Madhu, Asst. Prof/CSE</li>
+                  <li>Mr.K.Rajesh, Asst. Prof/CSE</li>
+                  <li>Dr Manju, Asst. Prof/CSE</li>
+                  <li>Mr Sachin Adithya, Asst. Prof/CSE</li>
                 </ul>
               </div>
             </div>

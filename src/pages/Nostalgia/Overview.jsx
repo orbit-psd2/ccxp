@@ -68,15 +68,11 @@ export default function NTOverview7() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Prashanth - 9514300687
+                    Prashanth - 95143 00687
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Hari Prasath - 8825511405
-                  </li>
-                  <li className="flex items-center font-pridi text-xl">
-                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Tamizh Selvi - 6369238242
+                    Hari Prasath - 88255 11405
                   </li>
                 </ul>
               </div>
@@ -87,8 +83,8 @@ export default function NTOverview7() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr.T.Tamilselvi</li>
-                  <li>Ms.Ramaprabha M</li>
+                  <li>Dr Tamilselvi,Asst. Prof/CSE</li>
+                  <li>Ms M Ramaprabha,Asst. Prof/CSE</li>
                 </ul>
               </div>
             </div>

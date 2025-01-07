@@ -38,7 +38,7 @@ export default function NTOverview4() {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">TRP</span>
+                <span className="text-2xl font-pridi">TRP AUDITORIUM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />

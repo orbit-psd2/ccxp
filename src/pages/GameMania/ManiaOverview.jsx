@@ -77,8 +77,8 @@ export default function ManiaOverview() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Dr.S.Revathy</li>
-                  <li>Ms.Sahaya Sakila V</li>
+                  <li>Dr S Revathy,Asst. Prof/CSE</li>
+                  <li>Ms V Sahaya Sakila ,Asst. Prof/CSE</li>
                 </ul>
               </div>
             </div>

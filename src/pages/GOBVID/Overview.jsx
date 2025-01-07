@@ -73,8 +73,8 @@ export default function NTOverview5() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Ms.C.Kudiyarasudevi</li>
-                  <li>Ms.Chandrakala S</li>
+                  <li>Ms C Kudiyarasudevi,Asst. Prof/CSE</li>
+                  <li>Ms S  Chandrakala,Asst. Prof/CSE</li>
                 </ul>
               </div>
             </div>

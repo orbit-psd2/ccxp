@@ -92,7 +92,7 @@ const router = createBrowserRouter([
       <About/>
       <ImageCarousel/>
       <Events/>
-      <Sponsor/>
+      
       <Footer/>
       </>
     )
