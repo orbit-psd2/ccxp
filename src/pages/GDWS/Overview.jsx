@@ -60,11 +60,11 @@ export default function TOverview1() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-orange-400" />
-                    Surya - 7358660760
+                    Vansh Jain - 93988 53269
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-orange-400" />
-                    Preethi Charishma - 7396792388
+                    Rajeev Suri Anand - 80561 51489
                   </li>
                 </ul>
               </div>

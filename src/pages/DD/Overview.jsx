@@ -42,7 +42,7 @@ export default function NTOverview1() {
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">10.00 AM - 3.40 PM</span>
+                <span className="text-2xl font-pridi">10:00 AM - 3:40 PM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 50/-</span>

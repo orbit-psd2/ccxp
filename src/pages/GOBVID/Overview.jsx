@@ -34,15 +34,15 @@ export default function NTOverview5() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Calendar className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">30-01-2025</span>
+                <span className="text-2xl font-pridi">31-01-2025</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">GALLERY HALL 4</span>
+                <span className="text-2xl font-pridi">TRP AUDITORIUM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-7 h-7 text-blue-400" />
-                <span className="text-2xl font-pridi">10:00 AM</span>
+                <span className="text-2xl font-pridi">9:00 AM - 3:40PM</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 50/-</span>
