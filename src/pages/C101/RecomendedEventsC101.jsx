@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import recczz from '../C101/RecCZZ.jpg'
-import recfo from '../C101/RecFO.png'
-import recwotv from '../C101/RecWOTV.png'
+import recczz from '/CZZP.png'
+import recfo from '/FOP.png'
+import recwotv from '/WOTVP.png'
 
 const EventCard = ({ title, description, image, link }) => {
   const [isHovered, setIsHovered] = useState(false);
