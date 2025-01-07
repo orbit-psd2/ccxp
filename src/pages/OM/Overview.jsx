@@ -73,7 +73,8 @@ export default function NTOverview4() {
                   Faculty Co-ordinators
                 </h3>
                 <ul className="space-y-2 text-xl font-pridi">
-                  <li>Mr. Mathu</li>
+                  <li>Mr A Madhu</li>
+                  <li>Ms Harini B</li>
                 </ul>
               </div>
             </div>
