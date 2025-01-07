@@ -77,7 +77,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src='' 
+                src='/CTHONP.png' 
                 alt="CLOUDCON WORKSHOP"
                 className="w-full h-full object-fill transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
@@ -146,7 +146,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src='/Cloud101.png'
+                src='/C101P.png'
                 alt="CLOUD 101 WORKSHOP"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500 cursor-pointer"
               />
@@ -173,7 +173,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src='/CodeComputing.png'
+                src='/CCP.png'
                 alt="CODE COMPUTING COMPEITION"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
@@ -215,7 +215,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src='/DesginDash.png' 
+                src='/DDP.png' 
                 alt="DESIGN DASH COMPETITION"
                 className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
@@ -242,7 +242,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src='/FaceOff.png'
+                src='/FOP.png'
                 alt="FACE OFF EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 cursor-pointer transition-transform duration-500"
               />
@@ -269,7 +269,7 @@ export default function Events() {
           <motion.div variants={cardVariants} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 overflow-hidden">
               <img 
-                src='/WOTV.png' 
+                src='/WOTVP.png' 
                 alt="WHAT'S ON TV EVENT"
                 className="w-full h-full object-cover transform hover:scale-110 transition-transform cursor-pointer duration-500"
               />
