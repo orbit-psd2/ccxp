@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const teamMembers = [
   {
     name: "Person 1",
-    role: "Event Coordinator",
+    role: "President",
     description: "The mastermind behind the event's logistics and planning.",
     image: "https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -19,9 +19,9 @@ const teamMembers = [
   },
   {
     name: "Person 3",
-    role: "Marketing Manager",
+    role: "Event Coordinator",
     description: "Spreading the word and building excitement for CloudCon x Pulse.",
-    image: "https://images.unsplash.com/photo-1648183185045-7a5592e66e9c?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: '/ECPIC.png'
   },
   {
     name: "Person 4",
@@ -61,7 +61,7 @@ const TeamPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className='font-audiowide uppercase'>CloudCon x Pulse</span>
+          <span className='font-audiowide uppercase tracking-widest'>CloudCon x Pulse</span>
         </motion.h1>
         <motion.div 
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"

@@ -64,6 +64,7 @@ import PulseLearnMore from './components/PulseLearnMore'
 import ImageCarousel from './components/Carousel'
 import TeamPage from './components/Team'
 import EventSpecificNavbar from './components/EventSpecificNav'
+import NavbarTeam from './components/NavTeam'
 
 const Layout = ({ children, useEventNavbar = false }) => (
   <>
@@ -102,7 +103,7 @@ const router = createBrowserRouter([
     path: '/contact',
     element: (
       <>
-      <EventNavbar/>
+      <NavbarTeam/>
       <ContactPage/>
       <Footer/>
       </>
@@ -319,19 +320,18 @@ const router = createBrowserRouter([
   },
 
   {/* 
-
   {
     path: '/team',
     element: (
       <>
-      <Navbar/>   
+      <NavbarTeam/>   
       <TeamPage/>
       <Footer/>
       </>
     )
   },
-
   */}
+
 ])
 
 const App = () => {

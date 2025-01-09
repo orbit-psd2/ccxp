@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+export default function NavbarTeam() {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -41,20 +41,20 @@ export default function Navbar() {
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="md:text-[22px] font-bold font-audiowide tracking-widest nav-text text-zinc-800 max-sm:text-[17px] max-md:text-[22px] uppercase"><Link to='/'>CloudCon X Pulse'25</Link></span>
+            <span className="md:text-[22px] font-bold font-audiowide tracking-widest nav-text text-zinc-800 max-sm:text-[17px] max-md:text-[22px] uppercase max-sm:pt-[12px]"><Link to='/'>CloudCon X Pulse'25</Link></span>
           </div>
           
           <div className="hidden md:flex items-center space-x-10">
-            <a className={`${scrolled ? 'text-zinc-800' : 'text-white'} tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/' onClick={() => {
+            <a className={`${scrolled ? 'text-zinc-800' : 'text-black'} tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/' onClick={() => {
               window.scrollTo(0, 0);
             }}>Home</Link></a>
-            <a className={`${scrolled ? 'text-zinc-800' : 'text-white'} tracking-wider hover:text-purple-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/events' onClick={() => {
+            <a className={`${scrolled ? 'text-zinc-800' : 'text-black'} tracking-wider hover:text-purple-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/events' onClick={() => {
               window.scrollTo(0, 0);
             }}>Events</Link></a>
-            <a className={`${scrolled ? 'text-zinc-800' : 'text-white'} tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/contact' onClick={() => {
+            <a className={`${scrolled ? 'text-zinc-800' : 'text-black'} tracking-wider hover:text-orange-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/contact' onClick={() => {
               window.scrollTo(0, 0);
             }}>Contact</Link></a>
-            {/*<a className={`${scrolled ? 'text-zinc-800' : 'text-white'} tracking-wider hover:text-purple-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/team' onClick={() => {
+            {/*<a className={`${scrolled ? 'text-zinc-800' : 'text-black'} tracking-wider hover:text-purple-500 duration-300 font-faculty uppercase transition-colors font-semibold text-[18px]`}><Link to='/team' onClick={() => {
               window.scrollTo(0, 0);
             }}>Team</Link></a>*/}
           </div>
@@ -70,21 +70,21 @@ export default function Navbar() {
                     closed: { rotate: 0, y: 0 },
                     open: { rotate: 45, y: 8 }
                   }}
-                  className={`w-full h-0.5 ${scrolled ? 'bg-zinc-800' : 'bg-white'} block`}
+                  className={`w-full h-0.5 ${scrolled ? 'bg-zinc-800' : 'bg-black'} block`}
                 ></motion.span>
                 <motion.span
                   variants={{
                     closed: { opacity: 1 },
                     open: { opacity: 0 }
                   }}
-                  className={`w-full h-0.5 ${scrolled ? 'bg-zinc-800' : 'bg-white'} block`}
+                  className={`w-full h-0.5 ${scrolled ? 'bg-zinc-800' : 'bg-black'} block`}
                 ></motion.span>
                 <motion.span
                   variants={{
                     closed: { rotate: 0, y: 0 },
                     open: { rotate: -45, y: -8 }
                   }}
-                  className={`w-full h-0.5 ${scrolled ? 'bg-zinc-800' : 'bg-white'} block`}
+                  className={`w-full h-0.5 ${scrolled ? 'bg-zinc-800' : 'bg-black'} block`}
                 ></motion.span>
               </motion.div>
             </button>
@@ -114,7 +114,7 @@ export default function Navbar() {
               <Link to='/' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Home</Link>
               <Link to='/events' className="text-zinc-800 hover:text-purple-500 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Events</Link>
               <Link to='/contact' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Contact</Link>
-              {/*<Link to='/team' className="text-zinc-800 hover:text-purple-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Team</Link>*/}
+              {/*<Link to='/contact' className="text-zinc-800 hover:text-orange-400 font-outfit uppercase transition-colors font-semibold text-[18px]" onClick={toggleMenu}>Team</Link>*/}
             </div>
           </motion.div>
         )}

@@ -61,7 +61,11 @@ export default function NTOverview1() {
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Kamashwara D K - 9437891638
+                    Kamashwara D K - 94441 08614
+                  </li>
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
+                    Tameka Nawal S - 87547 57744
                   </li>
                 </ul>
               </div>

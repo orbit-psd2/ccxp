@@ -22,7 +22,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-violet-100 via-pink-400 to-gray-900 bg-[length:400%_400%] animate-gradient mt-[60px] pt-[40px] pb-[40px]">
+    <div className="min-h-screen w-full bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-violet-100 via-pink-400 to-gray-900 bg-[length:400%_400%] animate-gradient pt-[100px] pb-[40px]">
       <div className="max-w-7xl mx-auto">
         <motion.h1 
           className="text-5xl max-sm:text-[40px] font-bold text-center uppercase mb-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"
