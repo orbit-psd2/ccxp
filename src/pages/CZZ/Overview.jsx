@@ -63,6 +63,10 @@ export default function NTOverview6() {
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
                      J Swethaa - 87780 00392
                   </li>
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
+                     R Sri Aravindan - 7558157945
+                  </li>
                 </ul>
               </div>
 

@@ -65,7 +65,11 @@ export default function ManiaOverview() {
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Aamir Khan - 73977 11345
+                    Aamir Abdullah Khan - 73977 11345
+                  </li>
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
+                    Sundaresan P - 99761 24645
                   </li>
                 </ul>
               </div>
