@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import nostalgia from '/NostalgiaP.png'
-import recwotv from './WOTVP.png'
+import recwotv from '/WOTVP.png'
 import reccthon from '/CTHONP.png'
 
 const EventCard = ({ title, description, image, link }) => {
