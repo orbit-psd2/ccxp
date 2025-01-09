@@ -53,7 +53,7 @@ export default function EventNavbar() {
           
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-zinc-800 focus:outline-none">
-              <motion.div``
+              <motion.div
                 animate={isOpen ? "open" : "closed"}
                 className="w-6 h-6 flex flex-col justify-around"
               >
