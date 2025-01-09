@@ -45,15 +45,15 @@ export default function EventNavbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a  className="text-zinc-800 hover:text-orange-500 uppercase duration-300 font-faculty font-semibold text-[18px]"><Link to='/'>Home</Link></a>
-            <a  className="text-zinc-800 hover:text-purple-500  font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
-            <a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
+            <a onClick={() => window.scrollTo(0,0)} className="text-zinc-800 hover:text-orange-500 uppercase duration-300 font-faculty font-semibold text-[18px]"><Link to='/'>Home</Link></a>
+            <a onClick={() => window.scrollTo(0,0)} className="text-zinc-800 hover:text-purple-500  font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/events'>Events</Link></a>
+            <a onClick={() => window.scrollTo(0,0)} className="text-zinc-800 hover:text-orange-500 font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/contact'>Contact</Link></a>
             {/*<a  className="text-zinc-800 hover:text-orange-500 font-faculty uppercase duration-300 font-semibold text-[18px]"><Link to='/team'>Team</Link></a>*/}
           </div>
           
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-zinc-800 focus:outline-none">
-              <motion.div
+              <motion.div``
                 animate={isOpen ? "open" : "closed"}
                 className="w-6 h-6 flex flex-col justify-around"
               >
