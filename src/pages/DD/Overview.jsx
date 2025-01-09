@@ -44,7 +44,7 @@ export default function NTOverview1() {
                 <span className="text-2xl font-pridi">10:00 AM - 3:40 PM</span>
               </div>
               <div className="flex items-center space-x-3">
-                <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 50/-</span>
+                <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 100/-</span>
               </div>
             </div>
 
@@ -57,11 +57,15 @@ export default function NTOverview1() {
                 <ul className="space-y-2">
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Felix Mathew - 8220442691
+                    Felix Mathew - 82204 42691
                   </li>
                   <li className="flex items-center font-pridi text-xl">
                     <Phone className="w-5 h-5 mr-2 text-blue-400" />
-                    Kamashwara D K - 9437891638
+                    Kamashwara D K - 94441 08614
+                  </li>
+                  <li className="flex items-center font-pridi text-xl">
+                    <Phone className="w-5 h-5 mr-2 text-blue-400" />
+                    Tameka Nawal S - 87547 57744
                   </li>
                 </ul>
               </div>
