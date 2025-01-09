@@ -13,24 +13,24 @@ export default function TDescription2() {
             transition={{ duration: 0.8 }}
             className="lg:w-1/2"
           >
-            <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About Cloud Innovators</h2>
+            <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About Cloud 101</h2>
             <div className="prose prose-lg text-gray-600">
               <p className="mb-4 text-[18px] text-justify">
-                Cloud Innovators is an exciting MCQ quiz competition designed to test and showcase your knowledge of cloud computing. This event challenges participants to demonstrate their understanding of cloud technologies, services, and best practices in a fast-paced, competitive environment.
+              Dive into the fundamentals of cloud computing with Cloud 101, an engaging workshop designed to introduce participants to the transformative world of cloud technologies. Whether you're a beginner or looking to solidify your basics, this workshop will provide a comprehensive understanding of core cloud concepts and practices.
               </p>
               <p className="mb-4 text-[18px]">
-                Throughout the competition, you'll be tested on:
+              In this workshop, you'll explore:
               </p>
               <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
+                <li>The evolution and importance of cloud computing</li>
                 <li>Cloud service models (IaaS, PaaS, SaaS)</li>
-                <li>Major cloud providers and their services</li>
-                <li>Cloud security and compliance</li>
-                <li>Serverless computing and microservices</li>
-                <li>Cloud networking and storage solutions</li>
+                <li>Introduction to major cloud providers (AWS, Azure, GCP)</li>
+                <li>Basics of cloud security and compliance</li>
+                <li>Real-world applications and industry use cases</li>
                 <li>DevOps and cloud integration</li>
               </ul>
               <p className='text-[18px]'>
-                Perfect for cloud enthusiasts, students, and professionals looking to prove their expertise. Participants will not only compete for prizes but also gain valuable insights into the latest trends in cloud computing.
+              Perfect for students, tech enthusiasts, and professionals, Cloud 101 is a stepping stone to mastering the skills needed in today's cloud-driven world. Participants will walk away with practical knowledge, resources, and inspiration to further explore this dynamic field.
               </p>
             </div>
           </motion.div>
