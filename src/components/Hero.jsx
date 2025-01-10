@@ -26,13 +26,13 @@ const Timer = () => {
     } else {
       return (
         <div className="flex flex-col items-center">
-          <div className="flex gap-2 sm:gap-4 md:gap-9">
+          <div className="flex gap-3 sm:gap-4 md:gap-9">
             <AnimatedDigit value={days} />
             <AnimatedDigit value={hours} />
             <AnimatedDigit value={minutes} />
             <AnimatedDigit value={seconds} />
           </div>
-          <div className="flex text-gray-200 mt-2 sm:mt-4 gap-2 sm:gap-4 md:gap-8 text-xs sm:text-sm uppercase font-semibold">
+          <div className="flex text-gray-200 mt-2 sm:mt-4 gap-6 sm:gap-4 md:gap-8 text-xs sm:text-sm uppercase font-semibold">
             <span className="w-12 sm:w-16 md:w-20 text-center">Days</span>
             <span className="w-12 sm:w-16 md:w-20 text-center">Hours</span>
             <span className="w-12 sm:w-16 md:w-20 text-center">Minutes</span>
