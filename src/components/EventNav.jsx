@@ -36,12 +36,12 @@ export default function EventNavbar() {
         scrolled ? 'bg-white shadow-md' : 'bg-transparent'
       }`}
     >
-      <div className={`max-w-7xl mx-auto px-4 py-4 ${
+      <div className={`max-w-7xl mx-auto px-4 max-sm:py-[8px] py-4 max-sm:pb-[17px] ${
         scrolled ? '' : 'background: radial-gradient(at 69% 63%, #f5eee6 0px, transparent 50%), radial-gradient(at 47.99568981959902% 77.37499872843424%, #e7ebea 0px, transparent 50%), radial-gradient(at 85.81896568166798% 63.62499872843424%, #f3d7ca 0px, transparent 50%), radial-gradient(at 0% 32.37499872843424%, #a9c5e6 0px, transparent 50%), #f5eee6;'
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="md:text-[22px] uppercase font-bold font-audiowide tracking-wider text-zinc-800 max-sm:text-[17px] max-md:text-[22px]"><Link className="nav-text hover:opacity-90 transition-opacity duration-300" to='/'>CloudCon X Pulse'25</Link></span>
+            <span className="md:text-[22px] uppercase font-bold font-audiowide tracking-wider text-zinc-800 max-sm:text-[17px] max-md:text-[22px] max-sm:pt-[13px]"><Link className="nav-text hover:opacity-90 transition-opacity duration-300" to='/'>CloudCon X Pulse'25</Link></span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
