@@ -16,7 +16,7 @@ export default function ManiaDesc() {
             <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About Game mania</h2>
             <div className="prose prose-lg text-gray-600">
               <p className="mb-4 text-[18px] text-justify">
-              Dive into a high-energy game development challenge that combines creativity, technical skill, and a meaningful theme. Participants will develop a game from pre-provided assets, creating an engaging experience that highlights sustainability and environmental responsibility
+              Game Mania is an adrenaline-fueled, 8-hour game jam where creativity knows no bounds! Participants are free to create any kind of game, using any tools, assets, and ideas they desire. There’s no theme to restrict your imagination—just bring your best ideas to life and showcase your game development skills. Whether you want to explore new mechanics, test out an art style, or create the next gaming sensation, the only limit is the clock. Ready to take on the challenge?
               </p>
               <p className="mb-4 text-[18px]">
               Event highlights include:
