@@ -3,12 +3,14 @@ import { AlertCircle, Check } from 'lucide-react';
 
 export default function ManiaRules() {
   const rules = [
-    "Participants must bring their own laptops, chargers, and any necessary hardware or software tools",
-    "All projects must be built during the hackathon timeframe unless specified otherwise",
-    "Participants must adhere to the themes and problem statements provided",
-    "Disruptive behavior or unsportsmanlike conduct will lead to disqualification",
-    "Ensure your development environment is set up before the hackathon begins to avoid delay",
-    "Decisions made by judges and organizers are final and binding",
+    "The Jam runs for 8 hours, starting from the kickoff announcement",
+    "Participants can join solo or form teams of up to 3 members",
+    "No team changes are allowed after the Jam starts",
+    "There is no assigned theme—participants are free to create any type of game they want",
+    "Any game engine, framework, or tool can be used, as long as participants have legal access to it",
+    "Participants can use pre-made or free-to-use assets, but proper credit must be provided in the submission",
+    "Original assets created during the Jam are encouraged but not mandatory",
+    "Submit your game before the 8-hour deadline. Late submissions will not be accepted",
   ];
 
   return (
