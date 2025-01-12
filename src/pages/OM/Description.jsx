@@ -16,7 +16,7 @@ export default function NTDescription4() {
             <h2 className="text-3xl font-bold mb-6 text-gray-800 uppercase">About open mic</h2>
             <div className="prose prose-lg text-gray-600">
               <p className="mb-4 text-[18px] text-justify">
-              Take the stage and let your creativity shine at our Open Mic Night! This event is your opportunity to share your talents with an energetic and supportive audience
+              Take the stage and let your creativity shine at our Open Mic! This event is your opportunity to share your talents with an energetic and supportive audience
               </p>
               <p className="mb-4 text-[18px]">
               Event highlights include:
@@ -29,7 +29,7 @@ export default function NTDescription4() {
                 <li>A chance to connect with fellow performers and showcase your passion</li>
               </ul>
               <p className='text-[18px] text-justify'>
-              Join us for a night of inspiration, expression, and unforgettable performances at Open Mic!
+              Join us for a day of inspiration, expression, and unforgettable performances at Open Mic!
               </p>
             </div>
           </motion.div>

@@ -5,7 +5,7 @@ export default function ManiaRules() {
   const rules = [
     "Participants must bring their own laptops, chargers, and any necessary hardware or software tools",
     "All projects must be built during the hackathon timeframe unless specified otherwise",
-    "Teams must adhere to the themes and problem statements provided",
+    "Participants must adhere to the themes and problem statements provided",
     "Disruptive behavior or unsportsmanlike conduct will lead to disqualification",
     "Ensure your development environment is set up before the hackathon begins to avoid delay",
     "Decisions made by judges and organizers are final and binding",
