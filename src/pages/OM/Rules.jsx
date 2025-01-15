@@ -6,6 +6,7 @@ export default function TRules2() {
     "Performances must be within the allocated time limit, exceeding the limit may result in point deductions",
     "All content must be appropriate for a general audience, offensive material will lead to disqualification",
     "Pre-recorded music tracks must be submitted in advance, if required",
+    "Participants can do group performance, but need to register individually",
     "Participants must arrive on time and be ready for their turn",
     "Collaboration is allowed, but all performances should be original",
     "Judging criteria will include creativity, presentation, and audience engagement",
