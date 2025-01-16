@@ -44,7 +44,7 @@ export default function NTOverview5() {
                 <span className="text-2xl font-pridi">9:00 AM - 3:40PM</span>
               </div>
               <div className="flex items-center space-x-3">
-                <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 100/-</span>
+                <span className="text-2xl font-medium mt-5 font-pridi">Registration Fee: ₹ 100 (Per Person)/-</span>
               </div>
             </div>
 
