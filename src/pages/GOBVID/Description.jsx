@@ -22,7 +22,7 @@ export default function NTDescription5() {
               Event highlights include:
               </p>
               <ul className="list-disc pl-6 mb-4 text-[18px] font-medium space-y-3 text-justify">
-                <li>Team-based gameplay with groups of three participants</li>
+                <li>Team-based gameplay with groups of two participants</li>
                 <li>Realistic auction simulation to bid on players and form your team</li>
                 <li>Budget management to make smart, strategic decisions</li>
                 <li>A test of cricket knowledge and analytical skills to outsmart your rivals</li>
