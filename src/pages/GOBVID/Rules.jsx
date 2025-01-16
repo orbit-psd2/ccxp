@@ -4,6 +4,7 @@ import { AlertCircle, Check } from 'lucide-react';
 export default function TRules2() {
   const rules = [
     "Round one is quiz (based on ipl) to filter all the teams and top 10 teams to go into auction",
+    "Registrations must be done individually for each participant",
     "Before auction date player sets will be released with base price to study the auction tactics as only those players will be used in auction",
     "The auction starts from the given set of players already given with different sets",
     "the winners will be selected based on the team balance,form of the players and the common stats as the playing 11 will be the final team",
